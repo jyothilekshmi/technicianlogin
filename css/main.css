@@ -143,7 +143,7 @@ footer a{color: #fff;}
 footer a:hover{color: #cd000b;}
 
 .productPageLayout{background: #fff;}
-.productPageLayout .leftMenuPane{ background: #fff; width: 21%; padding:27px 10px 30px 30px;}
+
 .productPageLayout .leftMenuPane h2{margin-top: 0; text-transform: uppercase;}
 .productPageLayout .rightMenuPane{ background: #b8b6b5; width: 79%; min-height: 600px; padding-left: 33px; padding-right: 30px; float: right;}
 .productPageLayout .rightMenuPane h2{ text-transform: uppercase; margin-top:26px; }
@@ -228,7 +228,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .element3TextTab .innerTabPane{ /*padding-top: 16px; padding-bottom: 16px;*/}
 .element3TextTab .innertabs { padding: 15px 1px; float: left;}
 .element3TextTab .innertabs img{ float: left; margin-right: 5px; }
-.element3TextTab .innertabs h3{ text-align: center;  margin:0 0 5px 0; text-transform: uppercase; color: #7f8a9c; font-size: 12px;}
+.element3TextTab .innertabs h3{ text-align: center;  margin:0 0 5px 0;  color: #7f8a9c; font-size: 12px;}
 .element3TextTab .innertabs p{ text-align: center; font-size: 10px;}
 .element3TextTab .scroll-pane{height: 450px;}
 .element3TextTab .scroll-pane .row{padding: 0; margin: 0; }
@@ -311,6 +311,29 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .shopsNearbyPane .titleSearchPane .searchPaneOptions .currentLocationPane{ width: 30%; float: left; margin-top: 2px;}
 .shopsNearbyPane .titleSearchPane .searchPaneOptions .currentLocationPane a{background: #ed1c24 url("../images/location-icon.png") no-repeat scroll 5px 6px;border-radius: 13px;color: #fff;float: left;font-size: 11px;padding: 5px 8px 5px 27px;}
 .shopsNearbyPane .titleSearchPane .maxDistancePane{}
+/*--------------------------------------------------------------------------------------*/
+/*                                   Added by Jyothi                                    */
+/*--------------------------------------------------------------------------------------*/
+.productPageLayout .leftMenuPane.techinicianlogin {background: #363437; width:173px;padding-left: 0px ; padding-right: 0px; postion:relative; min-height:1320px; }
+.productPageLayout .leftMenuPane.techinicianlogin  img{width:173px; height:60px;}
+.productPageLayout .leftMenuPane.techinicianlogin h4{color:white; margin-top: -48px;font-size: 17px;text-align: center;}
+.productPageLayout .leftMenuPane.techinicianlogin span{color:white;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li a{color:white;top:16px; text-transform:none; padding-bottom:24px;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li i{color:white; width:21px; height:16px; }
+.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li .fa-angle-left{    margin-left: 9px;}
+.productPageLayout .leftMenuPane.techinicianlogin img#Top-car{width: 25%;margin-left: 22px;margin-top: 16px; margin-bottom:8px;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li:first-child{background:#ed1c24; height:37px;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock{position:absolute; border-top:2px solid #454346; bottom:0px;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock button{ margin-left:16px; margin-right:16px; margin-top:15px; background:#e2252f;height:32px; width:138px; border-radius:25px; color:white; border:1px solid #e2252f}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock #contact{color:#89888a; text-align:center; margin-top:16px;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock #contact li{padding-bottom:10px; background:none; text-transform:none;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia i{color:#999a9b; border:1px solid #9b9a9b; padding:10px; margin-bottom:11px; margin-right:3px; border-radius:3px;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia{margin-left:15px;}
+
+/*--------------------------------------------------------------------------------------*/
+/*                                   Added by Jyothi                                    */
+/*--------------------------------------------------------------------------------------*/
+
 /*--------------------------------------------------------------------------------------*/
 /*                                   MOBILE  STYLES                                     */
 /*--------------------------------------------------------------------------------------*/

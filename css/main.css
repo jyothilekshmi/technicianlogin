@@ -327,8 +327,9 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock button{ margin-left:16px; margin-right:16px; margin-top:15px; background:#e2252f;height:32px; width:138px; border-radius:25px; color:white; border:1px solid #e2252f}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock #contact{color:#89888a; text-align:center; margin-top:16px;}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock #contact li{padding-bottom:10px; background:none; text-transform:none; cursor: default;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia i{color:#999a9b; border:1px solid #9b9a9b; padding:10px; margin-bottom:11px; margin-right:3px; border-radius:3px;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia{margin-left:15px;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons li i{color:#999a9b; border:1px solid #9b9a9b;border-radius:3px;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons li{margin-left:15px; display:inline; float:left; background:none;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons li a{ float:left; width:30px; height:30px; padding:5px; }
 
 /*--------------------------------------------------------------------------------------*/
 /*                                   Added by Jyothi                                    */

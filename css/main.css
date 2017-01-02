@@ -318,18 +318,24 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .productPageLayout .leftMenuPane.techinicianlogin  img{width:173px; height:60px;}
 .productPageLayout .leftMenuPane.techinicianlogin h4{color:white; margin-top: -48px;font-size: 17px;text-align: center;}
 .productPageLayout .leftMenuPane.techinicianlogin span{color:white;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li a{color:white;top:16px; text-transform:none; padding-bottom:24px;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li a{color:white;top:16px; text-transform:none; }
+.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li{text-transform:none;padding-bottom:24px; }
 .productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li i{color:white; width:21px; height:16px; }
 .productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li .fa-angle-left{    margin-left: 9px;}
 .productPageLayout .leftMenuPane.techinicianlogin img#Top-car{width: 25%;margin-left: 22px;margin-top: 16px; margin-bottom:8px;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li:first-child{background:#ed1c24; height:37px;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li:hover{  background:#ed1c24;}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock{position:absolute; border-top:2px solid #454346; bottom:0px;}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock button{ margin-left:16px; margin-right:16px; margin-top:15px; background:#e2252f;height:32px; width:138px; border-radius:25px; color:white; border:1px solid #e2252f}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock #LiveChat {margin-left:10px;}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock #contact{color:#89888a; text-align:center; margin-top:16px;}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock #contact li{padding-bottom:10px; background:none; text-transform:none; cursor: default;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons li i{color:#999a9b; border:1px solid #9b9a9b;border-radius:3px;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons li{margin-left:15px; display:inline; float:left; background:none;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons li a{ float:left; width:30px; height:30px; padding:5px; }
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons li{display:inline; float:left; background:none; border: 1px solid #9b9a9b;height: 29px;text-align: center;margin-bottom: 10px;width: 32px;padding-top: 5px; margin-left:3px;border-radius:3px;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons li i{color:#999a9b;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul{margin-left:16px;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .facebook:hover{background:#37589b;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .twitter:hover{background:#46d4fe;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .linkedin:hover{background:#0077b5;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .youtube:hover{background:#e62117;}
 
 /*--------------------------------------------------------------------------------------*/
 /*                                   Added by Jyothi                                    */

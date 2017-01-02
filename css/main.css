@@ -456,3 +456,22 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
   .searchBulletinPane input{width: 80%;}
 
 }
+
+/* ----------------------Adeed By Sushma ------------------------*/
+/*---------------------------------------------------------------*/
+.row.productPageLayout .rightMenuPanedashboard{background: url('../images/menu.jpg') repeat; width:987px;height:60px;}
+.row.productPageLayout .rightMenuPanedashboard .lefttext .title h4{margin-left:26px;margin-top:15px;}
+.row.productPageLayout .rightMenuPanedashboard .title h6{margin-left:26px; color:#999999;margin-top:-8px;}
+.row.productPageLayout .rightMenuPanedashboard  .dashboardtext #text{color:#ed1c24; text-decoration: underline;}
+.rightMenuPanedashboard  .row.dashboardbody{background:#b8b6b5;}
+.rightMenuPanedashboard  .row.dashboardbody .dashboardcontent{margin-left:25px;margin-top:15px;}
+.rightMenuPanedashboard  .row.dashboardbody .dashboardcontent p {font-family:Calibri;font-size:18px;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard {width:333px;height:276px; margin-left:25px;margin-top:23px;background:white;border-radius:5px;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row1{width:333px;height:50px; text-align:left; background:#363437; border-radius:5px;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row1 label{padding:15px;color:white;font-family:Ebrima; font-size:15px;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row1  i{color:#5e5d5f; padding:5px; border:1px solid grey;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row1  #r{color:white; padding:1px 7px; border:1px solid grey;margin-left: 100px;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row2 {width:333px;height:59px;margin-left:5px; width:90%; border-bottom:1px solid #d8d8d8;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row2  p{font-family:Verdana;font-size:12px; margin-left:5px; margin-top:22px;color:#666666;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row2  p i{padding:3px; font-size:14px;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row2  p span{padding:3px; font-size:14px;}

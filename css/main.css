@@ -31,6 +31,7 @@ a {
   color: #cd000b;
   text-decoration: none;
   outline: none;
+  margin-top:2px;
 }
 
 a:hover,
@@ -474,16 +475,54 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .row.productPageLayout .rightMenuPanedashboard{background: url('../images/menu.jpg') repeat; width:987px;height:60px;}
 .row.productPageLayout .rightMenuPanedashboard .lefttext .title h4{margin-left:26px;margin-top:15px;}
 .row.productPageLayout .rightMenuPanedashboard .title h6{margin-left:26px; color:#999999;margin-top:-8px;}
-.row.productPageLayout .rightMenuPanedashboard  .dashboardtext #text{color:#ed1c24; text-decoration: underline;}
 .rightMenuPanedashboard  .row.dashboardbody{background:#b8b6b5;}
-.rightMenuPanedashboard  .row.dashboardbody .dashboardcontent{margin-left:25px;margin-top:15px;}
-.rightMenuPanedashboard  .row.dashboardbody .dashboardcontent p {font-family:Calibri;font-size:18px;}
-.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard {width:333px;height:276px; margin-left:25px;margin-top:23px;background:white;border-radius:5px;}
-.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row1{width:333px;height:50px; text-align:left; background:#363437; border-radius:5px;}
-.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row1 label{padding:15px;color:white;font-family:Ebrima; font-size:15px;}
-.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row1  i{color:#5e5d5f; padding:5px; border:1px solid grey;}
-.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row1  #r{color:white; padding:1px 7px; border:1px solid grey;margin-left: 100px;}
-.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row2 {width:333px;height:59px;margin-left:5px; width:90%; border-bottom:1px solid #d8d8d8;}
-.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row2  p{font-family:Verdana;font-size:12px; margin-left:5px; margin-top:22px;color:#666666;}
-.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row2  p i{padding:3px; font-size:14px;}
-.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .row2  p span{padding:3px; font-size:14px;}
+.row.productPageLayout .rightMenuPanedashboard  .dashboardtext #text{color:#ed1c24; text-decoration: underline;}
+.rightMenuPanedashboard  .row.dashboardbody .dashboardcontent{margin-top:15px;}
+.rightMenuPanedashboard  .row.dashboardbody .dashboardcontent p {font-family:Calibri;font-size:16px;font-weight:bold;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard {width:333px;height:280px; margin-left:25px;margin-top:23px;background:white;border-radius:5px;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .first{width:333px;height:50px; text-align:left; background:#363437; border-radius:5px;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .first ul li label{padding:15px;color:white;font-family:Ebrima; font-size:15px;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .first  ul li:nth-child(2){color: white;border: 1px solid grey;padding: 2px 9px 4px 6px; margin-left:80px;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .first  ul li a{color:white;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .first  ul  #star{color: white;border: 1px solid grey;padding: 2px 9px 4px 6px;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .first  ul  #star a{color:#5e5d5f;}
+
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .second {width:333px;height:50px; width:100%;margin-top: 14px; border-bottom:1px solid #d8d8d8;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .second ul li:first-child{width:80%;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .second  ul li p{color:#666666; padding-left:20px;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .second  ul #star a i{color:#cdcdcd;}
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .second  ul #download a i{color:#5778fd;}
+
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .third {width:333px;height:50px; width:100%;margin-top: 15px; border-bottom:1px solid #d8d8d8 ;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .firstdashboard  .third  ul li:first-child{width:80%;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .firstdashboard  .third  ul li p{color:#666666; padding-left:20px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .firstdashboard  .third  ul #star a i{color:#cdcdcd;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .firstdashboard  .third  ul #download a i{color:#5778fd;}
+
+.rightMenuPanedashboard  .row.dashboardbody .row.dashboard1 .firstdashboard  .fourth {width:333px;height:50px; width:100%;margin-top: 15px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .firstdashboard  .fourth  ul li:first-child{width:80%;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .firstdashboard  .fourth  ul li p{color:#666666; padding-left:20px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .firstdashboard  .fourth   ul #star a i{color:#cdcdcd;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .firstdashboard  .fourth   ul #download a i{color:#5778fd;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 #viewall a{float: right;padding: 12px 10px;}
+
+
+
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .dashboardcontent1{margin-left:50px;margin-top:38px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard {width:573px;height:280px; }
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard {width:573px;height:50px;background:#363437;border-radius:5px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul li label{color:white;font-family:Ebrima;font-size:15px;margin-top:15px;margin-left:20px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul li label{color:white;font-family:Ebrima;font-size:15px;margin-top:15px;margin-left:20px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #recent .recent{border:1px solid grey;padding:2px;margin-left:2px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard   .first ul #recent a{color:grey;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #recent .recent{margin-left: 175px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #recent .recent #R{border-right:1px solid grey; padding:2px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #recent .recent #R a{padding:5px;}
+
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #fav .favourite{border:1px solid grey;padding:2px;margin-left:2px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #fav a{color:white;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #fav .favourite #star{border-right:1px solid grey; padding:3px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #fav .favourite #star a{padding:5px;}
+
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .second ul li:first-child .leftpane{width:250px;height:230px;background:black; margin-top: -1px;margin-left: 3px;}
+

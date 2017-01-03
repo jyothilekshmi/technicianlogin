@@ -337,19 +337,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .twitter:hover{background:#46d4fe;}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .linkedin:hover{background:#0077b5;}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .youtube:hover{background:#e62117;}
-/*--------------------------------------------------------------------------------------*/
-/*                                   Tips and Tricks                                   */
-/*--------------------------------------------------------------------------------------*/
-.productPageLayout .rightMenuPane.TipsAndTricks {background: #b8b6b5;width:987px; float:left; min-height: 600px; padding-left:0px; padding-right: 0px;}
-.productPageLayout .rightMenuPane.TipsAndTricks .topMenu {background: url('../images/right-menu-bg.png');height:60px;margin-top:0px; margin-top: -26px;  }
-.productPageLayout .rightMenuPane.TipsAndTricks .topMenu h2,h5{margin-left:25px; font-style: italic; }
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane{margin-left: 25px;
-    margin-top: 29px;
-    margin-right: 36px;
-    min-height: 925px;
-	background: #fff;
-    border-radius: 5px 5px 0 0;
-    padding: 15px;}
+
 /*--------------------------------------------------------------------------------------*/
 /*                                   Added by Jyothi                                    */
 /*--------------------------------------------------------------------------------------*/
@@ -510,19 +498,25 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 
 .rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .dashboardcontent1{margin-left:50px;margin-top:38px;}
 .rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard {width:573px;height:280px; }
-.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard {width:573px;height:50px;background:#363437;border-radius:5px;}
-.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul li label{color:white;font-family:Ebrima;font-size:15px;margin-top:15px;margin-left:20px;}
-.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul li label{color:white;font-family:Ebrima;font-size:15px;margin-top:15px;margin-left:20px;}
-.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #recent .recent{border:1px solid grey;padding:2px;margin-left:2px;}
-.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard   .first ul #recent a{color:grey;}
-.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #recent .recent{margin-left: 175px;}
-.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #recent .recent #R{border-right:1px solid grey; padding:2px;}
-.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #recent .recent #R a{padding:5px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .top{width:573px;height:50px;background:#363437;border-radius:5px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .top ul li label{color:white;font-family:Ebrima;font-size:15px;margin-top:15px;margin-left:20px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .top ul li label{color:white;font-family:Ebrima;font-size:15px;margin-top:15px;margin-left:20px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .top ul  .recent{border:1px solid grey;padding:2px;margin-left:2px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard   .top ul  .recent a{color:grey;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .top ul .recent{margin-left: 175px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .top ul  .recent #R{border-right:1px solid grey; padding:2px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .top ul .recent #R a{padding:5px;}
 
-.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #fav .favourite{border:1px solid grey;padding:2px;margin-left:2px;}
-.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #fav a{color:white;}
-.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #fav .favourite #star{border-right:1px solid grey; padding:3px;}
-.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .first ul #fav .favourite #star a{padding:5px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .top ul .favourite{border:1px solid grey;padding:2px;margin-left:2px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .top ul .favourite a{color:white;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .top ul .favourite #star{border-right:1px solid grey; padding:3px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .top ul .favourite #star a{padding:5px;}
 
-.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .second ul li:first-child .leftpane{width:250px;height:230px;background:black; margin-top: -1px;margin-left: 3px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .contentpane{width:573px;height:230px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .contentpane ul .leftpane{width:250px;height:230px;background:black;margin-left: 8px;padding-left:0;margin-top:-1px;}
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard1 .seconddashboard  .contentpane ul .leftpane iframe{margin-top:45px;}
+
+
+.rightMenuPanedashboard .row.dashboardbody .row.dashboard2 .calender{ width:573px;height:263px;}
+
 

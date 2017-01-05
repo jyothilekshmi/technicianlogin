@@ -339,6 +339,21 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .youtube:hover{background:#e62117;}
 
 /*--------------------------------------------------------------------------------------*/
+/*                                   Tips and Tricks                                   */
+/*--------------------------------------------------------------------------------------*/
+.productPageLayout .rightMenuPane.TipsAndTricks {background: #b8b6b5;width:987px; float:left; min-height: 600px; padding-left:0px; padding-right: 0px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .topMenu {background: url('../images/right-menu-bg.png');height:60px;margin-top:0px; margin-top: -26px;  }
+.productPageLayout .rightMenuPane.TipsAndTricks .topMenu h2,h5{margin-left:25px; font-style: italic; }
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane{margin-left: 25px;
+    margin-top: 29px;
+    margin-right: 36px;
+    min-height: 925px;
+	background: #fff;
+    border-radius: 5px 5px 0 0;
+    padding: 15px;}
+
+
+/*--------------------------------------------------------------------------------------*/
 /*                                   Added by Jyothi                                    */
 /*--------------------------------------------------------------------------------------*/
 

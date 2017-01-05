@@ -64,7 +64,7 @@ $(document).ready(function() {
     });
 });
  
-$(function()
+/*$(function()
   {
     $('.scroll-pane').jScrollPane();
   });
@@ -73,4 +73,17 @@ $(function()
     $('.scroll-pane').jScrollPane({
       autoReinitialise: true
     });
+  });*/
+  
+  /* added the below js query to get the calendar*/
+
+  $(document).ready(function(){
+        $(function () {
+            $('#datetimepicker12').datetimepicker({
+                inline: true,
+                sideBySide: true
+            });
+        });
+  
   });
+  

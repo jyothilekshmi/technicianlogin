@@ -881,5 +881,20 @@ margin-bottom:20px;}
                 */
 	
 }
+/*  ---------------------------------------------------------------------------------------------------
+-----------------------------------------SHRUTI---------------------------------------------------------
+-------------------------------------------------------------------------------------------------------*/
+.rightbody.techinicianlogin .row.learning-center  .lefttext {background-color:#e2e2e2;width: 987px;}
+.rightbody.techinicianlogin .row.learning-center  .lefttext .title i{margin-left:10px;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttext{background-color:#b8b6b5;width:797px;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody{height:auto;background-color:#ffffff;width: 943px;margin: 20px 0px 25px 7px; color:#b7b7b7;border-radius:0.2em;box-shadow:2px; }
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody .head {padding: 20px 20px 0px 20px ;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody .head #header{font-family:arial;font-size: 18px;  text-align:left-align;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody .head #body{font-family:arial; font-size:14px;  text-align:left-align;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody .head #border{border-bottom-style:solid;border-bottom-color: #999999;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody  .subhead{padding: 0px 20px 20px 20px;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody  .subhead a{color:#b7b7b7;font-weight:600;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody  .subhead #subheader{color:#ed1b24;font-weight: 800;margin-bottom: 3px;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody .subhead #body{font-family:arial; font-size:14px;  text-align:left-align;}
 
 @media screen and (max-device-width: 767px) and (orientation: landscape) {}

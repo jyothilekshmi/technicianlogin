@@ -11,6 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic,600,600italic,700,800,700italic,800italic' rel='stylesheet' type='text/css'>
     <link href="css/main.css" rel="stylesheet">
     <link href="css/accordion-menu.css" rel="stylesheet">
+	<link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -197,35 +198,37 @@
             </div>
         </div>
         
-	  <!-- Dashborad section starts -->
-	  <div class="col-md-10 col-sm-2 col-xs-12 rightMenuPanedashboard">
-	      <!-- Dashborad header starts -->
+<!-- Dashborad section starts -->
+	  <div class="col-md-10 col-sm-12 col-xs-12 rightMenuPanedashboard">
+<!-- Dashborad header starts -->
 			  <div class="row dashboard">
-				  <div class="col-md-9 col-sm-2 col-xs-12 lefttext">
+				  <div class="col-md-9 col-sm-6 col-xs-6 lefttext">
 					  <div class ="title">
 						  <h4> <i>DASHBOARD</i> </h4>
 						  <h6><i> Technician Center /Dashboard</i></h6>
 					  </div>
 				 </div>
-			  <div class="col-md-3 col-sm-2 col-xs-12 rightext">
+			  <div class="col-md-3 col-sm-6 col-xs-6 rightext">
 				  <div class="dashboardtext">
 						<span>You have</span>
-						<span><img src="images/210pts.jpg"/></span>
+						<span><img src="images/210.png"/></span>
 						<span> |</span>
 						<span id="text"> Redeem </span>
 				  </div>
 			 </div>
 			 </div>
-			  <!-- Dashborad header Ends -->
+<!-- Dashborad header Ends -->
 			  
-			  <!-- Dashborad body starts -->
+<!-- Dashborad body starts -->
 			 <div class="row dashboardbody">
 				   <div class="col-md-12 col-sm-2 col-xs-12 dashboardcontent">
 				      <p>Welcome <span style="color:red">John Doe</span>,to the raybestos TechCenter.</br>
 					  Here you will find useful tools, events, tweets, recent updates and your favourites from the Technical Bulletins and Videos.<b></p>
 				   </div>
 	         </div>
-			 <!-- Dashborad body Ends -->
+<!-- Dashborad body Ends -->
+
+<!--  firstdashboard starts here -->
 			       <div class="row dashboard1">
 						 <div class="col-md-4 col-sm-2 col-xs-12 dashboardcontent1">
 								 <div class="firstdashboard">
@@ -270,16 +273,53 @@
 						 </div>
 						 <div class="col-md-8 col-sm-2 col-xs-12 dashboardcontent2">
 									<div class="seconddashboard">
-								 <!--top starts here-->
+<!--top starts here-->
 									 <div class="top">
+									       <ul class="list-inline">
+												<li><label>HOW TO VIDEOS</label></li>
+												<li class="recent">
+													<span id="R"><a href="#">R</a></span>
+													<a href="#">Recent</a>
+												</li>
+												<li class="favourite"> 
+													<span id="star"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></span>
+													<a href="#">Favourities</a>								
+													</li>
+										    </ul>
 									 </div>
-									<!--top ends here-->
+<!--top ends here-->
 									<div class="contentpane">
 									   <div class="col-md-4 leftcontentpane">
-									   hii
+											<iframe width="248" height="140" src="https://www.youtube.com/embed/LRP8d7hhpoQ" frameborder="0" allowfullscreen></iframe>
 									   </div>
-									 <div class="col-md-4 rightcontentpane">
-									 hiii
+									  <div class="col-md-4 rightcontentpane">
+									      <div class="one">
+										    <ul class="list-inline">
+												  <li> 1 </li>
+												  <li> <img src="images/one.png" alt="..." class="img-thumbnail" > </li>
+												  <li> Police Brake R&D</li>
+												  <li><span id="star"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></span> </li>
+											</ul>
+										  </div>
+										  <div class="two">
+										  <ul class="list-inline">
+												  <li> 2 </li>
+												  <li> <img src="images/one.png" alt="..." class="img-thumbnail" > </li>
+												  <li> Isolation Test</li>
+												  <li><span id="star"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></span> </li>
+											</ul>
+										  </div>
+										  <div class="three">
+										  <ul class="list-inline">
+												  <li> 3 </li>
+												  <li> <img src="images/one.png" alt="..." class="img-thumbnail" > </li>
+												  <li> Light Weight Rotor </br>Comparision</li>
+												  <li><span id="star"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></span> </li>
+											</ul>
+										  </div>
+										  <div id="view">
+												<a href="#"> VIEW ALL </a>
+										  </div>
 									   </div>
 
 									 </div>
@@ -287,7 +327,205 @@
 								 </div>
 						 </div>
 						 </div>
+						 
+<!-- second dashborad row starts here-->
+		<div class="row dashboardsecond">
+		    <div class="col-md-8 dashboard3">
+			<div class="row contentpane">
+			           <div class="col-md-5 first">
+					        <div class="col-md-5 first">
+					         <div style="overflow:hidden;">
+									<div class="form-group">
+										<div class="row">
+											<div class="col-md-8">
+												<div id="datetimepicker12"></div>
+											</div>
+										</div>
+									</div>
+					    	</div>
+					   </div>
+					   </div>
+					   <div class="col-md-7 second">
+					            <div class="col-md-6 second">
+					      <div class="title">
+								<label> UPCOMING EVENT(S)</LABEL>
+						  </div>
+						  <div class="content1">
+						      <ul class="list-inline">
+							  <li> 07/14</li>
+							  <li>Brake Systems Diagnosis and Repair</br>
+							  </li>
+							  </ul>
+							  <div id="map"> 
+								  <ul class="list-inline">
+								  <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+								  <li> 4400 Prime Parkway McHenry, IL 60050</li>
+								  </ul>
+							  </div>
+						  </div>
+						  <div class="content2">
+							  <ul class="list-inline">
+							  <li> 07/29</li>
+							  <li>Brake Systems Diagnosis and Repair</br>
+							  </li>
+							  </ul>
+							  <div id="map"> 
+								  <ul class="list-inline">
+								  <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+								  <li> 4400 Prime Parkway McHenry, IL 60050</li>
+								  </ul>
+							  </div>
+							  
+						  </div>
+						  <div class="content3">
+							  <ul class="list-inline">
+							  <li> 08/12</li>
+							  <li>Brake Systems Diagnosis and Repair</br>
+							  </li>
+							  </ul>
+							  <div id="map"> 
+								  <ul class="list-inline">
+								  <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+								  <li> 4400 Prime Parkway McHenry, IL 60050</li>
+								  </ul>
+							  </div>
+							  <a href="#">VIEW ALL</a>
+						  </div>
+						  
+					   </div>
+					   </div>
+					   </div>
+			</div>
+		<div class="col-md-4 dashboard4">
+			  <p id="text1">Anyone heading to the Goodguys
+						  25th Heartland Nationals at the
+						  Iowa State Fairgrounds?</p>
+			  <p id="text2">The Raybestos '69 Mustng...</p>
+			  <p id="text3"> 29 June, 2016</p>
+			  <p id="text4"> Recentt Tweets
+			  <i class="fa fa-twitter" aria-hidden="true"></i></p>
+		 </div>
+		
+	</div> <!-- second dashboard row ends here-->
+	
+	<!-- third dashboard row starts here-->
+	         <div class="row row3">
+				 <div class="col-md-5 dashboard5">
+				      <div class="top">
+					       <ul class="list-inline">
+						   <li><p>Have An Idea?</br>
+						       SHARE IT WITH US!</p>
+						   </li>
+						   <li><img src="images/10pts.png" > </li>
+						   </ul>
+					  </div>
+					  
+					  <div class="middle">
+							<textarea class="form-control" rows="3" placeholder="Share your idea"></textarea>
+					  </div>
+					  
+					  <div class="submit">
+							<button type="submit" class="btn btn-default">Submit</button>
+					  </div>
+				    
+				 </div>
+				 <div class="col-md-7 dashboard6">
+					 <div class="top">
+					 <label>DISTRIBUTOR SEARCH</label>
+					   </div>
+					   <div class="content">
+							<label>Find a Raybestos Distributor Near You.</label>
+					   <div class="row content1">
+						   <div class="col-md-6 search">
+							   <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Address OR Zip code/Postal Code">
+						   <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+							</div>
+							<div class="col-md-1 text">
+								<p> OR</P>
+							</div>
+							<div class="col-md-5 loc">
+							   <button>
+								   <span><i class="fa fa-location-arrow" aria-hidden="true"></i></span>
+								   <span class="text">Use Current Location</span>
+						      </button>				
+							</div>
+						</div>
+						<div class="row content2">
+						   <div class="col-md-5 dist">
+						   <p>Max Distance (Miles)</p>
+						   </div>
+						   <div class="col-md-7 radio">
+							   		<label class="radio-inline">
+										  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 5
+									</label>
+									<label class="radio-inline">
+										  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 10
+									</label>
+									<label class="radio-inline">
+										  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 25
+									</label>
+									<label class="radio-inline">
+										  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 50
+									</label>									
+									</div>
+							</div>
+							
+							<div class="row content3">
+							   <div class="col-md-3 one">
+										<p id="text1">ABC DISTRIBUTOR</p>
+										<p id="text2">Pat Weber</p>
+								</div>
+								
+								<div class="col-md-4 two">
+									   <p id="text1"> 214 GREENWOOD RD</br>
+											   GLENVIEW,JL 60025</br>
+									   <a href="#">Get Directions</a></P>
+								</div>
+								
+								<div class="col-md-3 three">
+										<i class="fa fa-phone" aria-hidden="true">  847-965-3400</i>
+										<p id="text1"> Mon-Sat:10am-7pm </br>
+												Sun : 12pm-5pm</p>		
+								</div>
+								<div class="col-md-2 star">
+										<i class="fa fa-star" aria-hidden="true"></i>
+								</div>
+						    </div> 
+							
+							<div class="row content4">
+							   <div class="col-md-3 one">
+										<p id="text1">ABC DISTRIBUTOR</p>
+										<p id="text2">Pat Weber</p>
+								</div>
+								
+								<div class="col-md-4 two">
+									   <p id="text1"> 214 GREENWOOD RD</br>
+											   GLENVIEW,JL 60025</br>
+									   <a href="#">Get Directions</a></P>
+								</div>
+								
+								<div class="col-md-3 three">
+										<i class="fa fa-phone" aria-hidden="true">  847-965-3400</i>
+										<p id="text1"> Mon-Sat:10am-7pm </br>
+												Sun : 12pm-5pm</p>		
+								</div>
+								<div class="col-md-2 star">
+										<i class="fa fa-star" aria-hidden="true"></i>
+								</div>
+						    </div> 
+							
+							<div class="view">
+									<a href="#">VIEW ALL</a>							
+							</div>
+					   </div>
+				 </div>
+					
+				 </div>
+		<!-- third dashboard row ends here-->
+			</div>
 			
+		</div>
+
        </div>
 	     <!-- Dashborad section Ends -->
 	   
@@ -364,5 +602,9 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/accordion-menu.js"></script>
+	<script src="js/moment-with-locales.js"></script>
+	<script src="js/bootstrap-datetimepicker.js"></script>
+	
+	
   </body>
 </html>

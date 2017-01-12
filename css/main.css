@@ -710,7 +710,7 @@ margin-bottom:20px;}
 
 /* ----------------------------- Mobile Styles------------------------*/
 @media screen and (max-width: 767px){
-.row.productPageLayout .rightMenuPanedashboard{width:100%;}
+.row.productPageLayout .rightMenuPanedashboard{width:100%;height:auto;}
 .row.productPageLayout .rightMenuPanedashboard .lefttext .title{margin-left:-28px;font-size:9px;}
 .row.productPageLayout .rightMenuPanedashboard .title h6{ color:#999999;margin-top:-8px;font-size:9px;}
 .row.productPageLayout .rightMenuPanedashboard  .rightext .dashboardtext  {font-size: 11px;margin-left: -10px;}
@@ -726,10 +726,73 @@ margin-bottom:20px;}
 .rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane iframe{width: 100%;padding-left: 16px;}
 .rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane{width:100%;}
 .rightMenuPanedashboard .row.dashboard1  .dashboardcontent2  .seconddashboard  .top ul li label{font-size:14px;margin-left:10px;}
-.rightMenuPanedashboard  .row.dashboardsecond .dashboard3{margin-left:16px; width:100%;}
-.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .first {width:45%;}
-.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second {width:50%;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3{margin-left:15px;margin-top:255px;width:100%;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .first {width: 92%;border-radius: 5px 5px 0 0; padding-left: 50px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second{ width: 92%;border-radius: 0 0 5px 5px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4{width: 92%;margin-left: 16px;margin-top:290px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text1{margin-left: 15px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text2{margin-left: 15px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 {margin-top: 70px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 i {float: right;margin-top: -20px;}
+.rightMenuPanedashboard   .row.row3 .dashboard5 {margin-left: 16px;}
+
 }
+
+
+@media screen and (max-device-width: 767px) and (orientation: landscape) {
+.row.productPageLayout .rightMenuPanedashboard{width:100%;}
+.row.productPageLayout	 .rightMenuPanedashboard .row.dashboard  .rightext  {float:right;}
+.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard{width:100%;}
+.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .first{width:100%;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul li:nth-child(2){margin-left:360px;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second  ul  #star{padding-left:48px;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .third  ul  #star{padding-left:48px;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .fourth  ul  #star{padding-left:48px;}
+.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane{width:40%;}
+.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane{width:60%;}
+.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2  .seconddashboard  .top{width:100%;}
+.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard{margin-left:0px; width:100%; }
+
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul{margin-left:6px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li{margin-left: 3px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li:nth-child(2){margin-left: 10px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li:nth-child(3){margin-left: 15px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li:nth-child(4){margin-left: 15px;}
+
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul{margin-left:6px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li{margin-left: 3px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li:nth-child(2){margin-left: 10px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li:nth-child(3){margin-left: 15px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li:nth-child(4){margin-left: 15px;}
+
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul{margin-left:6px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li{margin-left: 3px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li:nth-child(2){margin-left: 10px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li:nth-child(3){margin-left: 15px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li:nth-child(4){margin-left: 13px;}
+.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane{width:100%;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3{margin-left:16px;margin-top:25px;width:100%;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .first {width: 40%;border-radius: 5px 0 0 5px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second {width: 55%;border-radius: 0 5px 5px 0;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content3 a{float: right;margin-right:-30px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4{width: 95%;margin-left: 16px;margin-top: 25px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text1{margin-left: 10px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text2{margin-left: 10px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 {margin-top: 80px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 i {margin-right: 15px;margin-top: -15px;float: right;}
+.rightMenuPanedashboard   .row.row3 .dashboard5{width: 93%;}
+.rightMenuPanedashboard   .row.row3 .dashboard5 .top{height: 79px;}
+.rightMenuPanedashboard   .row.row3 .dashboard5 .middle textarea{width: 96%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  {width:100%;margin-left:0px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .top{width:98%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .content{width:98%;}
+
+
+}
+
+
+
+
 /*  ---------------------------------------------------------------------------------------------------
 -----------------------------------------SHRUTI---------------------------------------------------------
 -------------------------------------------------------------------------------------------------------*/
@@ -745,20 +808,3 @@ margin-bottom:20px;}
 .rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody  .subhead a{color:#b7b7b7;font-weight:600;}
 .rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody  .subhead #subheader{color:#ed1b24;font-weight: 800;margin-bottom: 3px;}
 .rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody .subhead #body{font-family:arial; font-size:14px;  text-align:left-align;}
-
-@media screen and (max-device-width: 767px) and (orientation: landscape) {
-	.row.productPageLayout .rightMenuPanedashboard{width:100%;}
-.row.productPageLayout	 .rightMenuPanedashboard .row.dashboard  .rightext  {float:right;}
-.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard{width:100%;}
-.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .first{width:100%;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul li:nth-child(2){margin-left:360px;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second  ul  #star{padding-left:48px;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .third  ul  #star{padding-left:48px;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .fourth  ul  #star{padding-left:48px;}
-.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane{width:40%;}
-.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane{width:60%;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2  .seconddashboard  .top{width:100%;}
-.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard{margin-left:0px; width:100%; }
-
-.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane{width:100%;}
-}

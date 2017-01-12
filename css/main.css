@@ -342,10 +342,13 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 /*                                   Tips and Tricks                                   */
 /*--------------------------------------------------------------------------------------*/
 .productPageLayout .rightMenuPane.TipsAndTricks {background: #b8b6b5;width:987px; float:left;  padding-left:0px; padding-right: 0px;}
-.productPageLayout .rightMenuPane.TipsAndTricks .topMenu {background: url('../images/right-menu-bg.png');height:60px;margin-top:0px; margin-top: -26px;  }
+.productPageLayout .rightMenuPane.TipsAndTricks .topMenu {background: url('../images/right-menu-bg.png');height:60px;margin-top:0px; }
+.productPageLayout .rightMenuPane.TipsAndTricks .topMenu h2{margin-top:0px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .topMenu h2,h5{margin-left:25px; font-style: italic; }
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane{margin-left: 25px; margin-top: 29px; margin-right: 36px; min-height: 925px; background: #fff; padding: 15px; margin-bottom:0px;}
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane button .search{padding-right: 356px; }
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane {margin-left: 25px; margin-top: 29px; margin-right: 36px; min-height: 925px; background: #fff; padding: 15px; margin-bottom:0px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .searchtips h4{margin-left:31px; color:#cfcfcf;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .searchtips .searchButton{margin-left:16px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane button .search{padding-right: 267px; }
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .favorite{margin-left:43px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-circle-o{font-size:27px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-dot-circle-o{font-size:27px; margin-left:49px;}
@@ -353,50 +356,32 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .allTips{margin-left: 9px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane button{height: 38px;border: 1px solid #f6f6f6;border-radius: 5px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .numbering{margin-left: 29px; margin-bottom:40px;}
-
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane #accordion1 .panel-default .panel-title {margin-top: -1px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList{margin-top:20px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #headingOne{height: 52px; padding-top: 1px; padding-bottom: 1px; padding-left: 1px; padding-right: 0px;}
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion{margin-left:30px; margin-right:30px;}
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane #accordion {visibility: visible;}
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane #accordion .panel-default{margin-top:0px;}
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #headingOne a{margin-top: -1px;}
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #headingTwo a{margin-top: -1px;}
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #headingOne a .fa-angle-down{background:#c9c9c9;padding-bottom: 11px;
-    width: 45px;
-    padding-top: 13px;
-    font-weight: bold;
-    padding-left: 13px;
-    color: #656565;
-    font-size: 28px;
-	margin-left: 510px;
-    }
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #headingOne a .fa-lightbulb-o{background:#c9c9c9;
-    padding: 11px;
-    padding-top: 15px;
-    width: 45px;
-    color: #656565;
-    font-weight: bold;
-    font-size: 26px;}
-	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #headingOne a{background:#e6e6e6}
-	
-	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #headingTwo a .fa-angle-down{background:#c9c9c9;padding-bottom: 11px;
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1{margin-left:30px; margin-right:30px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane #accordion1 .panel-default{margin-top:0px;}
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList  a .fa-angle-down{background:#c9c9c9;padding-bottom: 11px;
     width: 45px;
     padding-top: 13px;
     font-weight: bold;
     padding-left: 13px;
     color:#656565;
     font-size: 28px;
-	margin-left: 510px;
+	margin-left: 537px;
     }
-	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #headingTwo a .fa-lightbulb-o{background:#c9c9c9;
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList  a .fa-lightbulb-o{background:#c9c9c9;
     padding: 11px;
     padding-top: 15px;
     width: 45px;
     color:#656565;
     font-weight: bold;
     font-size: 26px;}
-	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #headingTwo a{background:#e6e6e6}
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1 .panel-heading.active{background:#7c7c7e;}
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1 .panel-heading.active a .fa-angle-down{background:#ed1b24; color:#ffffff}
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1 .panel-heading.active a .fa-lightbulb-o{background:#ed1b24; color:#ffffff}
 	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #headingTwo{height: 52px; padding-top: 1px; padding-bottom: 1px; padding-left: 1px; padding-right: 0px;}
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #headingThree{height: 52px; padding-top: 1px; padding-bottom: 1px; padding-left: 1px; padding-right: 0px;}
     .productPageLayout .rightMenuPane.TipsAndTricks .share{color:white;margin-left: 25px; margin-right: 36px;  background: #363437; padding: 1px; border-radius:4px; margin-top:25px;margin-bottom: 40px;}
 	.productPageLayout .rightMenuPane.TipsAndTricks .share .row img{padding-left:95px;}
 	.productPageLayout .rightMenuPane.TipsAndTricks .share .row{margin-left: 25px; margin-right: 36px;}
@@ -412,7 +397,7 @@ border-radius: 25px;
 color: white;
 border: 1px solid #ed1b24;
 margin-bottom:20px;}
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #accordion .panel-heading.active a {background:#7c7c7e}
+
 /*--------------------------------------------------------------------------------------*/
 /*                                   Added by Jyothi                                    */
 /*--------------------------------------------------------------------------------------*/
@@ -481,8 +466,26 @@ margin-bottom:20px;}
   .wheelCylindarBlock{width: 100%;}
   .searchBulletinPane{width: 100%;}
   .searchBulletinPane input{width: 80%;}
+ /*start-added by jyothi for tips and tricks*/ 
+  .productPageLayout .rightMenuPane.TipsAndTricks{width:100%;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .searchtips .searchButton{margin-left:0px;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane button .search{padding-right: 181px; }
+  .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .favorite{margin-left:3px;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-circle-o{font-size:22px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-dot-circle-o{font-size:24px; margin-left:29px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1{margin-left:0px; margin-right:0px;}
+ /*end-added by jyothi for tips and tricks*/  
+  
 	}
-@media screen and (max-device-width: 767px) and (orientation: landscape) {}
+@media screen and (max-device-width: 767px) and (orientation: landscape) {
+	 /*start-added by jyothi for tips and tricks*/
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane button .search{padding-right: 267px; }
+	 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .favorite{margin-left:43px;}
+	 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-circle-o{font-size:27px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-dot-circle-o{font-size:27px; margin-left:49px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1{margin-left:0px; margin-right:0px;}
+	 /*end-added by jyothi for tips and tricks*/  
+}
 
 
 /*--------------------------------------------------------------------------------------*/
@@ -530,7 +533,9 @@ margin-bottom:20px;}
 	.bhoechie-tab-menu .list-group-item{word-wrap: break-word;}
   .searchBulletinPane{width: 100%;}
   .searchBulletinPane input{width: 80%;}
-
+   /*start-added by jyothi for tips and tricks*/  
+.productPageLayout .rightMenuPane.TipsAndTricks {background: #b8b6b5; width:795px; float:left;  padding-left:0px; padding-right: 0px;}
+ /*end-added by jyothi for tips and tricks*/  
 }
 
 /* ----------------------Adeed By Sushma ------------------------*/

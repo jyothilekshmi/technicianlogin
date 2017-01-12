@@ -775,3 +775,7 @@ margin-bottom:20px;}
 	.rightbody.techinicianlogin .row.learning-center-body {width: 375px;}
 	.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody{width: 100%; margin-left: 0;}
 }
+@media screen and (max-device-width: 767px) and (orientation: landscape){
+	.rightbody.techinicianlogin .row.learning-center  .lefttext {width: 100%;}
+	.rightbody.techinicianlogin .row.learning-center-body {width: 105%;}
+}

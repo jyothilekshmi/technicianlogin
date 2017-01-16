@@ -316,27 +316,33 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 /*                                   Added by Jyothi                                    */
 /*--------------------------------------------------------------------------------------*/
 .productPageLayout .leftMenuPane.techinicianlogin {background: #363437; width:173px;padding-left: 0px ; padding-right: 0px; postion:relative; min-height:1431px; }
-.productPageLayout .leftMenuPane.techinicianlogin  img{width:173px; height:60px;}
-.productPageLayout .leftMenuPane.techinicianlogin h4{color:white; margin-top: -48px;font-size: 17px;text-align: center;}
-.productPageLayout .leftMenuPane.techinicianlogin span{color:white;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li a{color:white;top:16px; text-transform:none; }
-.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li{text-transform:none;padding-bottom:24px; }
+.productPageLayout .leftMenuPane.techinicianlogin .technicialLoginHeading{width:100%; float:left; background:url("../images/tech-center.png") no-repeat; color:#fff; text-align:center; text-transform:uppercase; font-size:17px; font-weight:bold;width: 100%;float: left;background: url("../images/tech-center.png") no-repeat;color: #fff;text-align: center;text-transform: uppercase;font-size: 15px;font-weight: bold;line-height: 1.1;padding: 10px 0;}
+.productPageLayout .leftMenuPane.techinicianlogin .userProfile{width:100%; float:left;}
+.productPageLayout .leftMenuPane.techinicianlogin .userProfile .userImage{width:60px; float:left; padding:15px 0 0 22px;}
+.productPageLayout .leftMenuPane.techinicianlogin .userProfile .userImage img{width:38px; height:38px; }
+.productPageLayout .leftMenuPane.techinicianlogin .userProfile .userName{ color: #fff;width: 108px;float: right;padding: 26px 0 0;font-size: 12px;font-weight: bold;}
+.ellipsis {white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.productPageLayout .leftMenuPane.techinicianlogin .technicialLeftAccordianPane{width: 100%; float: left; padding: 15px 0;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li a{color:white;text-transform:none; padding:10px 0 10px 10px; }
+.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li{text-transform:none;}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li i{color:white; width:21px; height:16px; }
 .productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li .fa-angle-left{    margin-left: 9px;}
-.productPageLayout .leftMenuPane.techinicianlogin img#Top-car{width: 25%;margin-left: 22px;margin-top: 16px; margin-bottom:8px;}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li:hover{  background:#ed1c24;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock{position:absolute; border-top:2px solid #454346; bottom:0px;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock button{ margin-left:16px; margin-right:16px; margin-top:15px; background:#e2252f;height:32px; width:138px; border-radius:25px; color:white; border:1px solid #e2252f}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock #LiveChat {margin-left:10px;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock #contact{color:#89888a; text-align:center; margin-top:16px;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock #contact li{padding-bottom:10px; background:none; text-transform:none; cursor: default;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons li{display:inline; float:left; background:none; border: 1px solid #9b9a9b;height: 29px;text-align: center;margin-bottom: 10px;width: 32px;padding-top: 5px; margin-left:3px;border-radius:3px;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons li i{color:#999a9b;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul{margin-left:16px;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .facebook:hover{background:#37589b;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .twitter:hover{background:#46d4fe;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .linkedin:hover{background:#0077b5;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .youtube:hover{background:#e62117;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock{position:absolute; border-top:2px solid #454346; bottom:0px;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock button{ margin-left:16px; margin-right:16px; margin-top:15px; background:#e2252f;height:32px; width:138px; border-radius:25px; color:white; border:1px solid #e2252f}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock #LiveChat {margin-left:10px;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock #contact{text-align: center;margin: 16px 0 0 0;padding: 0;font-size: 12px;color: #a8a8aa;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock #contact li{padding-bottom: 10px;background: none;text-transform: none;cursor: default;list-style: none;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia{width:100%; float:left;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li{display: inline;float: left;background: none;list-style: none;border: 1px solid #9b9a9b;height: 29px;text-align: center;margin-bottom: 10px;width: 32px;padding-top: 0;margin-left: 3px;border-radius: 3px;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li i{color:#999a9b;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul{width: 100%; float: left; margin: 0; padding: 0 15px;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li a{width:100%; float:left; padding-bottom: 7px; margin-top:0px;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li a:hover{color:#fff;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons .facebook a:hover{background:#37589b;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons .twitter a:hover{background:#46d4fe;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons .linkedin a:hover{background:#0077b5;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons .youtube a:hover{background:#e62117;}
 
 /*--------------------------------------------------------------------------------------*/
 /*                                   Tips and Tricks                                   */
@@ -599,11 +605,11 @@ margin-left: 0px;}
 /*---------------------------------------------------------------*/
 
 .row.productPageLayout .rightMenuPanedashboard{background: #b8b6b5;width:987px; height:1431px;font-family:arial;}
-.row.productPageLayout .rightMenuPanedashboard .row.dashboard{background: url('../images/menu.jpg') repeat; width:987px;height:60px;}
+.row.productPageLayout .rightMenuPanedashboard  .row.head  .leftpane .row.dashboard{background: url('../images/menu.jpg') repeat; width:987px;height:60px;}
 .row.productPageLayout .rightMenuPanedashboard .lefttext .title h4{margin-left:26px;margin-top:15px;}
 .row.productPageLayout .rightMenuPanedashboard .title h6{margin-left:26px; color:#999999;margin-top:-8px;}
-.row.productPageLayout .rightMenuPanedashboard  .dashboardtext #text{color:#ed1c24; text-decoration: underline;}
-.row.productPageLayout  .rightMenuPanedashboard .dashboardtext  #pts img{display:inline;}
+.row.productPageLayout .rightMenuPanedashboard   .row.head .dashboardtext #text{color:#ed1c24; text-decoration: underline;}
+.row.productPageLayout  .rightMenuPanedashboard  .row.head .dashboardtext  #pts img{display:inline;}
 
 .rightMenuPanedashboard  .row.dashboardbody .dashboardcontent{margin-top:15px;}
 .rightMenuPanedashboard  .row.dashboardbody .dashboardcontent p {font-size: 13px;font-weight:bold;}
@@ -681,7 +687,7 @@ margin-left: 0px;}
 
 
 
-.rightMenuPanedashboard  .row.dashboardsecond .dashboard3{margin-left:25px;margin-top:28px;width:574px; height:264px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3{margin-left:25px;margin-top:25px;width:574px; height:264px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .first {width: 254px;height: 265px;background: #dfe0e2;border-radius: 5px 0 0 5px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second{ width:320px;height: 265px;background: #fefefe;border-radius: 0 5px 5px 0; }
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second .title{margin-left: 10px;margin-top: 25px;}
@@ -710,7 +716,7 @@ margin-left: 0px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content3  #map ul li:nth-child(2){color:#989898;font-size:12px;padding-right:0px;}
 .rightMenuPanedashboard   .row.dashboardsecond  .dashboard3  .row.contentpane .second  .view{float:right;}
 
-.rightMenuPanedashboard  .row.dashboardsecond .dashboard4{ background: #55aded;width: 315px;height: 265px;margin-top: 26px; margin-left:29px;border-radius: 5px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4{ background: #55aded;width: 315px;height: 265px;margin-top: 25px; margin-left:29px;border-radius: 5px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text1{margin-top: 20px;color: white;margin-left: 15px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text2{ margin-left: 15px;color: white;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text3{   margin-left: 25px;  margin-top: 25px;font-size: 12px;color: white;}
@@ -745,7 +751,7 @@ margin-left: 0px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .dist p {padding-left:10px;color:grey;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .radio {margin-top: -23px;}
 
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 {border-bottom: 1px solid grey;width: 100%;padding-left:10px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 {border-bottom: 1px solid grey;width: 100%;padding-left:10px;margin-left: -5px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .one{padding-left:15px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .one #text1{font-size: 11px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .one #text2{font-size:10px;margin-top: -9px;}
@@ -753,12 +759,13 @@ margin-left: 0px;}
 
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .two p a{font-size: 11px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .three i{font-size:11px;padding-left: 10px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .three #text1{font-size:11px;padding-left: 10px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .three #text1{font-size:11px;padding-left: 10px;margin-top: -7px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .three #text2{font-size:11px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .star i{padding-left:20px;color: yellow;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .star i{padding-left:20px;color: yellow;margin-top: 15px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .three i p{margin-top: -11px;margin-left: 15px;}
 
 
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 {border-bottom: 1px solid grey;width: 100%;padding-left:12px;margin-top: 6px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 {border-bottom: 1px solid grey;width: 100%;padding-left:12px;margin-top: 6px;margin-left: -5px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .one{padding-left:15px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .one #text1{font-size: 11px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .one #text2{font-size:10px;margin-top: -9px;}
@@ -766,9 +773,10 @@ margin-left: 0px;}
 
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .two p a{font-size: 11px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .three i{font-size:11px;padding-left: 10px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .three #text1{font-size:11px;padding-left: 10px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .three #text1{font-size:11px;padding-left: 10px;margin-top: -7px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .three #text2{font-size:11px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .star i{padding-left:20px;color: yellow;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .three i p{margin-top: -11px;margin-left: 15px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .star i{padding-left:20px;color: yellow;margin-top: 15px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .view a{float: right;margin-top: 12px;margin-right: 12px;}
 
 /*----------------------------------Mobile Styles---------------------------------*/
@@ -776,9 +784,10 @@ margin-left: 0px;}
 
 @media screen and (max-width: 767px){
 .row.productPageLayout .rightMenuPanedashboard{width:100%;height:auto;}
+.row.productPageLayout .rightMenuPanedashboard  .row.head  .leftpane .row.dashboard{width: 359px;}
 .row.productPageLayout .rightMenuPanedashboard .lefttext .title{margin-left:-28px;font-size:9px;}
 .row.productPageLayout .rightMenuPanedashboard .title h6{ color:#999999;margin-top:-8px;font-size:9px;}
-.row.productPageLayout .rightMenuPanedashboard  .rightext .dashboardtext  {font-size: 11px;margin-left: -10px;}
+.row.productPageLayout .rightMenuPanedashboard  .rightext .dashboardtext  {font-size: 11px;float: right;}
  .rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1{margin-top:25px;padding-left: 14px;}
  .rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard {float: right;width: 100%;}
  .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2  .seconddashboard  .top{width:100%;}
@@ -802,15 +811,21 @@ margin-left: 0px;}
 .rightMenuPanedashboard   .row.row3 .dashboard5 {margin-left: 16px;}
 .rightMenuPanedashboard   .row.dashboardsecond  .dashboard3  .row.contentpane .second  .view{float:right;}
 
-/*
 .rightMenuPanedashboard   .row.row3  .dashboard6  {width:100%;margin-left:0px;margin-bottom: 190px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .top{width:100%;}
+
 .rightMenuPanedashboard   .row.row3  .dashboard6  .content{width: 100%;margin-left: 0px;height: 430px;padding-left:15px;font-family: arial;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .content label{margin-top: 5px;margin-bottom: 5px;}
+/*.rightMenuPanedashboard   .row.row3  .dashboard6  .content label{margin-top: 5px;margin-bottom: 5px;}*/
 .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1{width:100%;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .search{width:100%;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .search input{width:100%;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .text p{width: 69%;margin-top:-18px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .search input{width:100%;margin-left: 6px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .text {margin-top: -20px;padding-left:0px;}
+ .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .loc {width: 100%;margin-top: -18px;}
+ .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .loc  button span i{margin-left: -35px;font-size: 20px;}
+ .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .loc  button  .text{font-size: 13px;}
+ .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .dist {margin-top: 3px; width:100%;}
+ .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .radio{margin-top:-18px;margin-left:10px;width:100%;}
+/*.rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .text p{width: 69%;margin-top:-18px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .loc {width: 69%;margin-top:-24px;margin-left: 14px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content2{width:100%;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .dist {margin-top: 0px;}
@@ -836,6 +851,7 @@ margin-left: 0px;}
 
 @media screen and (max-device-width: 767px) and (orientation: landscape) {
 .row.productPageLayout .rightMenuPanedashboard{width:100%;}
+.row.productPageLayout .rightMenuPanedashboard  .row.head  .leftpane .row.dashboard{width:639px;}
 .row.productPageLayout	 .rightMenuPanedashboard .row.dashboard  .rightext  {float:right;}
 .rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard{width:100%;}
 .rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .first{width:100%;}
@@ -883,7 +899,7 @@ margin-left: 0px;}
 .rightMenuPanedashboard   .row.row3 .dashboard5 .middle textarea{width: 96%;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  {width:100%;margin-left:0px;margin-bottom: 25px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .top{width:98%;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .content{width:98%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .content{width:98%;height: 300px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search input{width:112%;}
 
 }
@@ -893,8 +909,9 @@ margin-left: 0px;}
 /*--------------------------------------------------------------------------------------------------------------*/
 @media (min-width: 768px) and (max-width: 970px){
 	.row.productPageLayout .rightMenuPanedashboard{width:100%;height: auto;}
-	.row.productPageLayout	 .rightMenuPanedashboard .row.dashboard {width:104%;}
+	.row.productPageLayout .rightMenuPanedashboard  .row.head .row.dashboard {width:100%;}
 	.row.productPageLayout .rightMenuPanedashboard  .rightext .dashboardtext  {float:right;}
+	.row.productPageLayout .rightMenuPanedashboard  .row.head  .leftpane .row.dashboard{width: 750px;}
 	.row.productPageLayout .rightMenuPanedashboard  .lefttext .title{margin-left: -20px;}
 	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1{width:100%;padding-left: 15px;}
 	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard{width:100%;height: 250px;}
@@ -941,16 +958,18 @@ margin-left: 0px;}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .radio label{padding-left: 30px;}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search input{width:112%}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 {margin-left:2px;width:97%;}
-	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .one #text1{font-size:12px;}
-	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .one #text2{font-size:11px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .one #text1{font-size:12px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .one #text2{font-size:11px;font-family:arial;}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .two {margin-left:0px;}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .three {margin-left:45px;}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .star {margin-left:6px;}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4{margin-left:2px;width:97%;}
-	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .one #text1{font-size:12px;}
-	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .one #text2{font-size:11px;}
-	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .two {margin-left:0px;}
-	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .three {margin-left:-13px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .one #text1{font-size:12px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .one #text2{font-size:11px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .two {margin-left:0px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .three {margin-left:-6px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .three #text1{margin-left:-13px;font-family:arial;font-size:11px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .three i{font-size:11px;padding-left:0px;}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .star {margin-left:6px;margin-top: 15px;}
 	
 }
@@ -959,6 +978,7 @@ margin-left: 0px;}
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)  {
 	.row.productPageLayout .rightMenuPanedashboard{width:82%;font-family:arial;font-size:13px;}
 	.row.productPageLayout	 .rightMenuPanedashboard .row.dashboard {width:104%;height: auto;}
+	.row.productPageLayout .rightMenuPanedashboard  .row.head  .leftpane .row.dashboard{width: 795px;}
 	.row.productPageLayout .rightMenuPanedashboard  .lefttext .title h4 {margin-left:0px;}
 	.row.productPageLayout .rightMenuPanedashboard  .lefttext .title h6 {margin-left:0px;}
 	.row.productPageLayout .rightMenuPanedashboard  .rightext .dashboardtext  {margin-left: -40px;}
@@ -1009,12 +1029,14 @@ margin-left: 0px;}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search input{width:110%; font-size: 10px;}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search .glyphicon{margin-left: 230px;}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1  .text{margin-left: -13px;}
-	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .one #text1{font-size:9px;}
-	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .two #text1{font-size:9px;}
-	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .three #text1{font-size:9px;}
-	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .one #text1{font-size:9px;}
-	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .two #text1{font-size:9px;}
-	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .three #text1{font-size:9px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .one #text1{font-size:9px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .two #text1{font-size:10px;font-family:arial;padding-left:0px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .three #text1{font-size:9px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .star i{margin-top: 15px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .one #text1{font-size:9px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .two #text1{font-size:10px;font-family:arial;padding-left:0px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .three #text1{font-size:9px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .star i{margin-top: 15px;}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .view a{margin-top: 26px;}
 	}
 

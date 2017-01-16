@@ -349,9 +349,12 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .searchtips h4{margin-left:31px; color:#cfcfcf;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .searchtips .searchButton{margin-left:0px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane button .search{padding-right: 267px; }
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .favorite{margin-left:43px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .favorite{margin-left:0px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-circle-o{font-size:27px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rate img{float:none;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .ratings{float:right;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-dot-circle-o{font-size:27px; margin-left:49px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane #accordion1 .videoUrl{}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .myfav{margin-left: 9px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .allTips{margin-left: 9px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane button{height: 38px;border: 1px solid #f6f6f6;border-radius: 5px; margin-left:15px;}
@@ -491,6 +494,8 @@ margin-bottom:20px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .numbering {
 margin-left: 0px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .share .row img{padding-left:0px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rate img{float:none; width:14%;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rateList{display:block;}
  /*end-added by jyothi for tips and tricks*/  
   
 	}
@@ -516,6 +521,8 @@ margin-left: 0px;}
     margin-left: 295px;
     padding-right: 9px;
 }
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rate img{float:none; width:6%;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rateList{display:inline;}
 	 /*end-added by jyothi for tips and tricks*/  
 }
 
@@ -558,6 +565,8 @@ margin-left: 0px;}
   .productPageLayout .rightMenuPane.TipsAndTricks .share .row img {padding-left: 56px;}
   .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1 {margin-left: 12px;margin-right: 0;}
   .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList a .fa-angle-down {margin-left: 348px;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .favorite{margin-left:43px;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rate img{float:none; width:6%;}
  /*end-added by jyothi for tips and tricks*/ 
 }
 
@@ -582,6 +591,7 @@ margin-left: 0px;}
     margin-right: 9px;
 }
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane button .search {padding-right: 187px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .favorite{margin-left:0px;}
  /*end-added by jyothi for tips and tricks*/  
 }
 

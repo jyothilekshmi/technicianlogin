@@ -813,9 +813,8 @@ margin-left: 0px;}
 
 .rightMenuPanedashboard   .row.row3  .dashboard6  {width:100%;margin-left:0px;margin-bottom: 190px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .top{width:100%;}
-
-.rightMenuPanedashboard   .row.row3  .dashboard6  .content{width: 100%;margin-left: 0px;height: 430px;padding-left:15px;font-family: arial;}
-/*.rightMenuPanedashboard   .row.row3  .dashboard6  .content label{margin-top: 5px;margin-bottom: 5px;}*/
+/*
+.rightMenuPanedashboard   .row.row3  .dashboard6  .content{width: 100%;margin-left: 0px;height: 477px;padding-left:15px;font-family: arial;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1{width:100%;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .search{width:100%;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .search input{width:100%;margin-left: 6px;}
@@ -824,27 +823,16 @@ margin-left: 0px;}
  .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .loc  button span i{margin-left: -35px;font-size: 20px;}
  .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .loc  button  .text{font-size: 13px;}
  .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .dist {margin-top: 3px; width:100%;}
- .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .radio{margin-top:-18px;margin-left:10px;width:100%;}
-/*.rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .text p{width: 69%;margin-top:-18px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .loc {width: 69%;margin-top:-24px;margin-left: 14px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content2{width:100%;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .dist {margin-top: 0px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .dist p{font-size: 10px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .radio{margin-top: 0px;margin-left:0;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .radio label {padding-left: 13px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .radio input {margin-left: -20px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 {width: 100%;margin-top: 0px;border-bottom: 1px solid grey;padding-left: 2px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .one #text1{font-size: 10px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .one #text2{font-size: 9px;margin-top: -9px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .two  #text1,a {font-size: 9px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .three{padding-left:0px;font-size:9px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4{padding-left:0px;font-size: 9px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .one #text2{font-size: 9px;margin-top: -9px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .two  #text1,a {font-size: 9px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .three{padding-left:0px;font-size:9px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .star{font-size:14px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .view {margin-top: 20px;margin-right: 12px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .view a{font-size:12px;}*/
+ .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2  .radio{margin-top:-18px;margin-left:10px;width:100%;}
+ /*.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3  .one {width:50%;}
+  .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3  .two {width:50%;padding-left:0px;}
+  .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .two #text1{font-size: 11px;padding-left:0px;}
+   .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3  .three {width:50%;padding-left: 6px;}
+    .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4  .one {width:50%;}
+  .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .two {width:50%;padding-left:0px;}
+  .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .two #text1{font-size: 11px;padding-left:0px;}
+   .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4  .three {width:50%;padding-left: 6px;}*/
+
 
 }
 

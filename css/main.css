@@ -598,7 +598,7 @@ margin-left: 0px;}
 /* ----------------------Adeed By Sushma ------------------------*/
 /*---------------------------------------------------------------*/
 
-.row.productPageLayout .rightMenuPanedashboard{background: #b8b6b5;width:987px; height:1431px;}
+.row.productPageLayout .rightMenuPanedashboard{background: #b8b6b5;width:987px; height:1431px;font-family:arial;}
 .row.productPageLayout .rightMenuPanedashboard .row.dashboard{background: url('../images/menu.jpg') repeat; width:987px;height:60px;}
 .row.productPageLayout .rightMenuPanedashboard .lefttext .title h4{margin-left:26px;margin-top:15px;}
 .row.productPageLayout .rightMenuPanedashboard .title h6{margin-left:26px; color:#999999;margin-top:-8px;}
@@ -606,32 +606,32 @@ margin-left: 0px;}
 .row.productPageLayout  .rightMenuPanedashboard .dashboardtext  #pts img{display:inline;}
 
 .rightMenuPanedashboard  .row.dashboardbody .dashboardcontent{margin-top:15px;}
-.rightMenuPanedashboard  .row.dashboardbody .dashboardcontent p {font-family:Calibri;font-size:16px;font-weight:bold;}
+.rightMenuPanedashboard  .row.dashboardbody .dashboardcontent p {font-size: 13px;font-weight:bold;}
 
 .rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1{margin-top:25px;padding-left:25px;}
 .rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard{width:330px;height:280px;background:white;border-radius: 5px;}
 
 .rightMenuPanedashboard  .row.dashboard1{ border:1px solid #b8b6b5;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1 .firstdashboard  .first{background:#363437; height: 50px; width: 330px; border-radius: 5px 5px 0 0;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first ul li label{padding:15px;color:white;font-family:Ebrima; font-size:15px;}
+.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1 .firstdashboard  .first{background:#363437; height: 50px; width: 330px; border-radius: 5px 5px 0 0;font-size:13px;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first ul li label{padding:15px;color:white; font-size:15px;}
 .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul li:nth-child(2){color: white;border: 1px solid grey;padding: 2px 9px 4px 6px; margin-left:80px;}
 .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul li a{color:white;}
 .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul  #star{color: white;border: 1px solid grey;padding: 2px 9px 4px 6px;}
 .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul  #star a{color:#5e5d5f;}
 
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second {width:333px;height:50px; width:100%;margin-top: 10px; border-bottom:1px solid #d8d8d8;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second {width:333px;height:50px; width:100%;margin-top: 10px; border-bottom:1px solid #d8d8d8;font-size:13px;}
 .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second ul li:first-child{width:80%;}
 .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second  ul li p{color:#666666; padding-left:20px;}
 .rightMenuPanedashboard   .row.dashboard1   .dashboardcontent1 .firstdashboard  .second  ul #star a i{color:#cdcdcd;}
 .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second  ul #download a i{color:#5778fd;}
 
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .third {width:333px;height:62px; width:100%;margin-top: 10px; border-bottom:1px solid #d8d8d8 ;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .third {width:333px;height:62px; width:100%;margin-top: 10px; border-bottom:1px solid #d8d8d8 ;font-size:13px;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1 .firstdashboard  .third  ul li:first-child{width:80%;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1 .firstdashboard  .third  ul li p{color:#666666; padding-left:20px;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1  .firstdashboard  .third  ul #star a i{color:#cdcdcd;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1  .firstdashboard  .third  ul #download a i{color:#5778fd;}
 
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1  .firstdashboard  .fourth {width:333px;height:50px; width:100%;margin-top: 10px;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1  .firstdashboard  .fourth {width:333px;height:50px; width:100%;margin-top: 10px;font-size:13px;}
 .rightMenuPanedashboard .row.dashboard1  .dashboardcontent1  .firstdashboard  .fourth  ul li:first-child{width:80%;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1  .firstdashboard  .fourth  ul li p{color:#666666; padding-left:20px;}
 .rightMenuPanedashboard  .row.dashboard1   .dashboardcontent1  .firstdashboard  .fourth   ul #star a i{color:#cdcdcd;}
@@ -647,7 +647,7 @@ margin-left: 0px;}
 .rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane{width:248px;height:230px;background:black;padding-left:0;border-radius:0 0 0 5px;}
 .rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane{width:322px;;height:230px; background:white;border-radius:0 0 5px 0;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2  .seconddashboard  .top{width:570px;height:50px;background:#363437;border-radius:5px 5px 0 0;}
-.rightMenuPanedashboard .row.dashboard1  .dashboardcontent2  .seconddashboard  .top ul li label{color:white;font-family:Ebrima;font-size:15px;margin-top:15px;margin-left:20px;}
+.rightMenuPanedashboard .row.dashboard1  .dashboardcontent2  .seconddashboard  .top ul li label{color:white;font-size:15px;margin-top:15px;margin-left:20px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2  .seconddashboard  .top ul .recent{border:1px solid grey;padding:2px;margin-left:2px;}
 .rightMenuPanedashboard  .row.dashboard1 .dashboardcontent2 .seconddashboard   .top ul  .recent a{color:grey;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2 .seconddashboard  .top ul .recent{margin-left: 175px;}
@@ -662,20 +662,20 @@ margin-left: 0px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .leftcontentpane iframe{margin-top:45px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one{width:310; height:60px; border:1px solid #f3f3f3;margin-top:3px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul{margin-top:5px;margin-left:3px; color:#666666;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li:nth-child(3){font-size:12px;font-family:Gill Sans MT regular;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li:nth-child(3){font-size:12px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li #star a i{color:yellow;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li #star {padding-left:16px;}
 
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two{width:310; height:60px; border:1px solid #f3f3f3;margin-top:3px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul{margin-top:5px;margin-left:3px; color:#666666;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li:nth-child(3){font-size:12px;font-family:Gill Sans MT regular;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li:nth-child(3){font-size:12px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li #star a i{color:yellow;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li #star{padding-left:45px;}
 
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three{width:310; height:60px; border:1px solid #f3f3f3;margin-top:3px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul{margin-top:5px;margin-left:3px; color:#666666;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane  #view{margin-top: 17px;float: right;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li:nth-child(3){font-size:12px;font-family:Gill Sans MT regular;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li:nth-child(3){font-size:12px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li #star a i{color:yellow;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li #star {padding-left:16px;}
 
@@ -714,8 +714,9 @@ margin-left: 0px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text1{margin-top: 20px;color: white;margin-left: 15px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text2{ margin-left: 15px;color: white;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text3{   margin-left: 25px;  margin-top: 25px;font-size: 12px;color: white;}
-.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 {margin-top: 55px;color: white;margin-left: 25px;}
-.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4  i{font-size: 40px; margin-left: 75px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 {margin-top:65px;color: white;margin-left: 25px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4  i{font-size: 40px; float:right; margin-top:-20px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 a{color: white;}
 
 .rightMenuPanedashboard   .row.row3 .dashboard5{background:#363437; width:328px; height:343px;border-radius:5px; margin-left:25px;margin-top:25px;}
 .rightMenuPanedashboard   .row.row3 .dashboard5 .top{height:79px;}
@@ -951,6 +952,7 @@ margin-left: 0px;}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .two {margin-left:0px;}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .three {margin-left:-13px;}
 	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .star {margin-left:6px;margin-top: 15px;}
+	
 }
 
 
@@ -998,7 +1000,22 @@ margin-left: 0px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text2 {margin-left:15px;font-size: 13px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4{margin-left:0px;margin-top:79px;font-size:13px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 i{float: right;margin-top: -35px;}
-	
+	.rightMenuPanedashboard   .row.row3 .dashboard5  {width:35%; margin-left:11px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard5 .middle textarea{width:100%;margin-left:0px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 {width:64%;margin-left: -5px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content{width:485px;padding-left: 14px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content label{margin-top: 13px;padding-left: 15px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .top{width:485px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search input{width:110%; font-size: 10px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search .glyphicon{margin-left: 230px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1  .text{margin-left: -13px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .one #text1{font-size:9px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .two #text1{font-size:9px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .three #text1{font-size:9px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .one #text1{font-size:9px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .two #text1{font-size:9px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .three #text1{font-size:9px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .view a{margin-top: 26px;}
 	}
 
 

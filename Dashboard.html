@@ -166,70 +166,81 @@
   <section>
     <div class="container">
       <div class="row productPageLayout">
-        <div class="col-md-2 col-sm-2 col-xs-12 leftMenuPane techinicianlogin">
-        <img src="images/tech-center.png"/>
-		<h4>TECHNICIAN CENTER</h4>
-		 <img id="Top-car" src="images/car.png"/> <span>John Doe</span>
-           <div id="accordion">
-                <ul>
-                  <li><a href="#"><span><i class="fa fa-home" aria-hidden="true"></i></span><span>Dashboard</span></a></li>
-				  <li><a href="#"><span><i class="fa fa-graduation-cap" aria-hidden="true"></i></span><span>Learning Center</span><span><i class="fa fa-angle-left" aria-hidden="true"></i></span></a></li>
-				  <li><a href="#"><span><i class="fa fa-search" aria-hidden="true"></i></span><span>Distribution Search</span></a></li>
-				  <li><a href="#"><span><i class="fa fa-calendar" aria-hidden="true"></i></span><span>Events</span></a></li>
-				  <li><a href="#"><span><i class="fa fa-user-o" aria-hidden="true"></i></span><span>My Profile</span></a></li>
-                </ul>
-				<div class="LiveChatBlock">
-				<button>Live Chat</button>
-				   <ul id="contact">
-                  <li>info@raybestos.co</li>
-				  <li>800-832-7867</li>
-				  <li>MON-FRI</li>
-				  <li>7am to 5pm (CST)</li>
-                </ul>
-				<div class="SocialMedia">
-				<ul id="socialicons">
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+        <div class="col-md-2 col-sm-2 col-xs-2 hidden-xs hidden-sm leftMenuPane techinicianlogin">
+        <div class="technicialLoginHeading">TECHNICIAN CENTER</div>
+		<div class="userProfile">
+			<span class="userImage"><img id="Top-car" src="images/car.png"/></span> 
+			<span class="userName ellipsis">John Doe</span>
+		</div>
+		<div class="technicialLeftAccordianPane"> 
+		   <div id="accordion">
+				<ul>
+					  <li><a href="#"><span><i class="fa fa-home" aria-hidden="true"></i></span><span>Dashboard</span></a></li>
+					  <li><a href="#"><span><i class="fa fa-graduation-cap" aria-hidden="true"></i></span><span>Learning Center</span><span><i class="fa fa-angle-left" aria-hidden="true"></i></span></a></li>
+					  <li><a href="#"><span><i class="fa fa-search" aria-hidden="true"></i></span><span>Distribution Search</span></a></li>
+					  <li><a href="#"><span><i class="fa fa-calendar" aria-hidden="true"></i></span><span>Events</span></a></li>
+					  <li><a href="#"><span><i class="fa fa-user-o" aria-hidden="true"></i></span><span>My Profile</span></a></li>
 				</ul>
+			</div>
+		</div>
+			<div class="LiveChatBlock">
+				<button>Live Chat</button>
+					<ul id="contact">
+						  <li>info@raybestos.co</li>
+						  <li>800-832-7867</li>
+						  <li>MON-FRI</li>
+						  <li>7am to 5pm (CST)</li>
+					</ul>
+				<div class="SocialMedia">
+					<ul id="socialicons">
+						<li class="facebook"><a href="#" ><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li class="twitter"><a href="#" ><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li class="linkedin"><a href="#" ><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+						<li class="youtube"><a href="#" ><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+					</ul>
 				</div>
-				</div>
-            </div>
+			</div>
         </div>
         
-	  <!-- Dashborad section starts -->
-	  <div class="col-md-10 col-sm-2 col-xs-12 rightMenuPanedashboard">
-	      <!-- Dashborad header starts -->
+<!-- Dashborad section starts -->
+	  <div class="col-md-10 col-sm-10 col-xs-10 rightMenuPanedashboard">
+<!-- Dashborad header starts -->
+           <div class="row head">
+		   <div class="col-md-12 col-sm-12 col-xs-12 leftpane">
 			  <div class="row dashboard">
-				  <div class="col-md-9 col-sm-2 col-xs-12 lefttext">
+				  <div class="col-md-9 col-sm-5 col-xs-4 lefttext">
 					  <div class ="title">
 						  <h4> <i>DASHBOARD</i> </h4>
 						  <h6><i> Technician Center /Dashboard</i></h6>
 					  </div>
 				 </div>
-			  <div class="col-md-3 col-sm-2 col-xs-12 rightext">
+			  <div class="col-md-3 col-sm-7 col-xs-8 rightext">
 				  <div class="dashboardtext">
 						<span>You have</span>
-						<span><img src="images/210.png"/></span>
+						<span id="pts"><img src="images/210.png" class="img-responsive" alt="Responsive image" /></span>
 						<span> |</span>
 						<span id="text"> Redeem </span>
 				  </div>
 			 </div>
 			 </div>
-			  <!-- Dashborad header Ends -->
+			 </div>
+			</div> 
+<!-- Dashborad header Ends -->
 			  
-			  <!-- Dashborad body starts -->
+<!-- Dashborad body starts -->
 			 <div class="row dashboardbody">
-				   <div class="col-md-12 col-sm-2 col-xs-12 dashboardcontent">
+				   <div class="col-md-12 col-sm-12 col-xs-12 dashboardcontent">
 				      <p>Welcome <span style="color:red">John Doe</span>,to the raybestos TechCenter.</br>
 					  Here you will find useful tools, events, tweets, recent updates and your favourites from the Technical Bulletins and Videos.<b></p>
 				   </div>
 	         </div>
-			 <!-- Dashborad body Ends -->
-			       <div class="row dashboard1">
-						 <div class="col-md-4 col-sm-2 col-xs-12 dashboardcontent1">
-								 <div class="firstdashboard">
+<!-- Dashborad body Ends -->
+
+<!--  firstdashboard row starts here -->
+			 <div class="row dashboard1">
+						 <div class="col-md-4 col-sm-6 col-xs-12 dashboardcontent1">
+<!--  firstdashboard starts here -->						 
+						<div class="firstdashboard">
 								        <div class="first">
 										<ul class="list-inline">
 											<li><label>TECH BULLETINS</label></li>
@@ -267,11 +278,14 @@
 									<div id="viewall">
 									<a href="#"> View All </a>
 									</div>
-								 </div>
+						</div>
+<!--  firstdashboard ends here -->								 
 						 </div>
-						 <div class="col-md-8 col-sm-2 col-xs-12 dashboardcontent2">
+						 
+<!--  second dsahboard starts here -->						 
+						<div class="col-md-8 col-sm-6 col-xs-12 dashboardcontent2">
 									<div class="seconddashboard">
-								 <!--top starts here-->
+						<!--top starts here-->
 									 <div class="top">
 									       <ul class="list-inline">
 												<li><label>HOW TO VIDEOS</label></li>
@@ -285,135 +299,141 @@
 													</li>
 										    </ul>
 									 </div>
-									<!--top ends here-->
+						<!--top ends here-->
 									<div class="contentpane">
-									   <div class="col-md-4 leftcontentpane">
+									   <div class="col-md-4 col-xs-12 col-sm-12 leftcontentpane">
 											<iframe width="248" height="140" src="https://www.youtube.com/embed/LRP8d7hhpoQ" frameborder="0" allowfullscreen></iframe>
 									   </div>
-									  <div class="col-md-4 rightcontentpane">
-									      <div class="one">
-										    <ul class="list-inline">
-												  <li> 1 </li>
-												  <li> <img src="images/one.png" alt="..." class="img-thumbnail" > </li>
-												  <li> Police Brake R&D</li>
-												  <li><span id="star"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></span> </li>
-											</ul>
-										  </div>
-										  <div class="two">
-										  <ul class="list-inline">
-												  <li> 2 </li>
-												  <li> <img src="images/one.png" alt="..." class="img-thumbnail" > </li>
-												  <li> Isolation Test</li>
-												  <li><span id="star"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></span> </li>
-											</ul>
-										  </div>
-										  <div class="three">
-										  <ul class="list-inline">
-												  <li> 3 </li>
-												  <li> <img src="images/one.png" alt="..." class="img-thumbnail" > </li>
-												  <li> Light Weight Rotor </br>Comparision</li>
-												  <li><span id="star"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></span> </li>
-											</ul>
-										  </div>
-										  <div id="view">
-												<a href="#"> VIEW ALL </a>
-										  </div>
+									  <div class="col-md-4 col-xs-12 col-sm-12 rightcontentpane">
+											  <div class="one">
+													<ul class="list-inline">
+														  <li> 1 </li>
+														  <li> <img src="images/one.png" alt="..." class="img-thumbnail" > </li>
+														  <li> Police Brake R&D</li>
+														  <li><span id="star"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></span> </li>
+													</ul>
+											  </div>
+											  <div class="two">
+													  <ul class="list-inline">
+															  <li> 2 </li>
+															  <li> <img src="images/one.png" alt="..." class="img-thumbnail" > </li>
+															  <li> Isolation Test</li>
+															  <li><span id="star"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></span> </li>
+														</ul>
+											  </div>
+											  <div class="three">
+													  <ul class="list-inline">
+															  <li> 3 </li>
+															  <li> <img src="images/one.png" alt="..." class="img-thumbnail" > </li>
+															  <li> Light Weight Rotor </br>Comparision</li>
+															  <li><span id="star"><a href="#"><i class="fa fa-star" aria-hidden="true"></i></a></span> </li>
+														</ul>
+											  </div>
+											  <div id="view">
+													<a href="#"> View All </a>
+											  </div>
 									   </div>
-
 									 </div>
-								
 								 </div>
-						 </div>
-						 </div>
+							</div>
+<!--  second dashboard  ends here -->						
+						</div>
+<!-- first dashborad row nends starts here-->
 						 
-		<!-- second dashborad row starts here-->
+<!-- second dashborad row starts here-->
 		<div class="row dashboardsecond">
-		    <div class="col-md-8 dashboard3">
+		
+<!-- third dashborad starts here-->
+		    <div class="col-md-8 col-sm-8 col-xs-12 dashboard3">
 			<div class="row contentpane">
-			           <div class="col-md-5 first">
-					        <div class="col-md-5 first">
+			           <div class="col-md-5 col-sm-12 col-xs-12 first"> 
 					         <div style="overflow:hidden;">
 									<div class="form-group">
 										<div class="row">
-											<div class="col-md-8">
+											<div class="col-md-8 col-xs-8 col-sm-8">
 												<div id="datetimepicker12"></div>
 											</div>
 										</div>
 									</div>
-					    	</div>
+							</div>
 					   </div>
-					   </div>
-					   <div class="col-md-7 second">
-					            <div class="col-md-6 second">
-					      <div class="title">
-								<label> UPCOMING EVENT(S)</LABEL>
-						  </div>
-						  <div class="content1">
-						      <ul class="list-inline">
-							  <li> 07/14</li>
-							  <li>Brake Systems Diagnosis and Repair</br>
-							  </li>
-							  </ul>
-							  <div id="map"> 
-								  <ul class="list-inline">
-								  <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
-								  <li> 4400 Prime Parkway McHenry, IL 60050</li>
-								  </ul>
+					   <div class="col-md-7 col-sm-12 col-xs-12 second">    
+							  <div class="title">
+									<label> UPCOMING EVENT(S)</LABEL>
 							  </div>
-						  </div>
-						  <div class="content2">
-							  <ul class="list-inline">
-							  <li> 07/29</li>
-							  <li>Brake Systems Diagnosis and Repair</br>
-							  </li>
-							  </ul>
-							  <div id="map"> 
+							  <div class="content1">
 								  <ul class="list-inline">
-								  <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
-								  <li> 4400 Prime Parkway McHenry, IL 60050</li>
+								  <li> 07/14</li>
+								  <li>Brake Systems Diagnosis and Repair</br>
+								  </li>
 								  </ul>
+								  <div id="map"> 
+									  <ul class="list-inline">
+									  <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+									  <li> 4400 Prime Parkway McHenry, IL 60050</li>
+									  </ul>
+								  </div>
 							  </div>
-							  
-						  </div>
-						  <div class="content3">
-							  <ul class="list-inline">
-							  <li> 08/12</li>
-							  <li>Brake Systems Diagnosis and Repair</br>
-							  </li>
-							  </ul>
-							  <div id="map"> 
+							  <div class="content2">
 								  <ul class="list-inline">
-								  <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
-								  <li> 4400 Prime Parkway McHenry, IL 60050</li>
+								  <li> 07/29</li>
+								  <li>Brake Systems Diagnosis and Repair</br>
+								  </li>
 								  </ul>
-							  </div>
-							  <a href="#">VIEW ALL</a>
-						  </div>
-						  
+								  <div id="map"> 
+									  <ul class="list-inline">
+									  <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+									  <li> 4400 Prime Parkway McHenry, IL 60050</li>
+									  </ul>
+								  </div>
+								</div>
+							<div class="content3">
+									  <ul class="list-inline">
+									  <li> 08/12</li>
+									  <li>Brake Systems Diagnosis and Repair</br>
+									  </li>
+									  </ul>
+									  <div id="map"> 
+										  <ul class="list-inline">
+										  <li><i class="fa fa-map-marker" aria-hidden="true"></i></li>
+										  <li> 4400 Prime Parkway McHenry, IL 60050</li>
+										  </ul>
+									  </div>
+							</div>
+							<div class="view">
+										<a href="#">View All</a>
+							</div>
+					   
 					   </div>
 					   </div>
-					   </div>
-			</div>
-		<div class="col-md-4 dashboard4">
-			  <p id="text1">Anyone heading to the Goodguys
-						  25th Heartland Nationals at the
-						  Iowa State Fairgrounds?</p>
-			  <p id="text2">The Raybestos '69 Mustng...</p>
-			  <p id="text3"> 29 June, 2016</p>
-			  <p id="text4"> Recentt Tweets
-			  <i class="fa fa-twitter" aria-hidden="true"></i></p>
-		 </div>
-		
+				</div>
+<!-- third dashborad ends here-->
+
+<!-- fourth dashborad starts here-->			
+						<div class="col-md-4 col-sm-4 col-xs-12 dashboard4">
+							  <p id="text1">Anyone heading to the Goodguys
+										  25th Heartland Nationals at the
+										  Iowa State Fairgrounds?</p>
+							  <p id="text2">The Raybestos '69 Mustng...</p>
+							  <p id="text3"> 29 June, 2016</p>
+							  <p id="text4"><a href="#"> Recent Tweets</a>
+							  <i class="fa fa-twitter" aria-hidden="true"></i></p>
+						 </div>
+<!-- fourth dashborad ends here-->
+
 	</div> <!-- second dashboard row ends here-->
 	
+<!-- third dashboard row starts here-->
 	         <div class="row row3">
-				 <div class="col-md-5 dashboard5">
+			 
+<!-- fifth dashborad starts here-->			 
+				 <div class="col-md-5 col-sm-5 col-xs-12 dashboard5">
 				      <div class="top">
 					       <ul class="list-inline">
 						   <li><p>Have An Idea?</br>
 						       SHARE IT WITH US!</p>
 						   </li>
-						   <li><img src="images/10pts.png" > </li>
+						   <li><img src="images/10pts.png" class="img-responsive" alt="Responsive image" /> </li>
 						   </ul>
 					  </div>
 					  
@@ -426,33 +446,102 @@
 					  </div>
 				    
 				 </div>
-				 <div class="col-md-7 dashboard6">
-					 <div class="distributionsearch">
-					    <div class="top">
-						<label>DISTRIBUTOR SEARCH</label>
-						</div>
-						<div class="content">
-						   <div class="first">
-						<label>Find A Raybestos Distributor Near You.</label>
-						
-						   </div>
-						   
-						   <div class="second">
-						   </div>
-						</div>
-					 </div>
-				 </div>
-			</div>
-			
-		</div>
+<!-- fifth dashborad ends here-->	
 
-       </div>
-	     <!-- Dashborad section Ends -->
-	   
-	</div>
-    </div>
+<!-- sixth dashborad starts here-->			 
+				 <div class="col-md-7 col-sm-7 col-xs-12 dashboard6">
+							 <div class="top">
+								<label>DISTRIBUTOR SEARCH</label>
+							  </div>
+				 <div class="content">
+						  <label>Find a Raybestos Distributor Near You.</label>
+							<div class="row content1">
+								   <div class="col-md-6  col-sm-6 col-xs-6 search">
+										<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter Address OR Zip code/Postal Code">
+										<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+									</div>
+									<div class="col-md-1 col-sm-1 col-xs-1 text">
+										<p> OR</P>
+									</div>
+									<div class="col-md-5 col-sm-5 col-xs-5 loc">
+										 <button>
+											<span><i class="fa fa-location-arrow" aria-hidden="true"></i></span>
+											<span class="text">Use Current Location</span>
+										  </button>				
+									</div>
+							</div>
+							<div class="row content2">
+									   <div class="col-md-5 col-xs-5 col-sm-5 dist">
+											<p>Max Distance (Miles)</p>
+									   </div>
+										<div class="col-md-7 col-xs-7 col-sm-7 radio">
+											<label class="radio-inline">
+												<input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 5
+											</label>
+											<label class="radio-inline">
+												<input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 10
+											</label>
+											<label class="radio-inline">
+												<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 25
+											</label>
+											<label class="radio-inline">
+												<input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 50
+											</label>									
+										</div>
+							</div>
+							
+							<div class="row content3">
+										 <div class="col-md-3 col-xs-3 col-sm-3 one">
+											<p id="text1">ABC DISTRIBUTOR</p>
+											<p id="text2">Pat Weber</p>
+										</div>
+										<div class="col-md-4 col-xs-4 col-sm-3 two">
+											<p id="text1"> 214 GREENWOOD RD</br>
+														   GLENVIEW,JL 60025</br>
+											<a href="#">Get Directions</a></P>
+										</div>
+										<div class="col-md-3 col-xs-3 col-sm-3 three">
+											<i class="fa fa-phone" aria-hidden="true"><p>847-965-3400</p></i>
+											<p id="text1"> Mon-Sat:10am-7pm </br>
+															Sun : 12pm-5pm</p>		
+										</div>
+										<div class="col-md-2 col-xs-2 col-sm-2 star">
+											<i class="fa fa-star" aria-hidden="true"></i>
+										</div>
+							</div> 						
+							<div class="row content4">
+										<div class="col-md-3 col-xs-3 col-sm-3 one">
+											<p id="text1">XYZ PARTS DISTRIBUTORS</p>
+											<p id="text2">Rich Smith</p>
+										</div>
+										<div class="col-md-4 col-xs-4 col-sm-4 two">
+											<p id="text1"> 805 WAUKEGAN RD</br>
+														   NORTHBROOK,DL 60062</br>
+											<a href="#">Get Directions</a></P>
+										</div>
+										<div class="col-md-3 col-xs-3 col-sm-3 three">
+											<i class="fa fa-phone" aria-hidden="true"><p>847-965-3400</p></i>
+											<p id="text1"> Mon-Sat:10am-7pm </br>
+															Sun : 12pm-5pm</p>		
+										</div>
+										<div class="col-md-2 col-xs-2 col-sm-2 star">
+											<i class="fa fa-star" aria-hidden="true"></i>
+										</div>
+							</div> 
+							<div class="view">
+									<a href="#">View All</a>							
+							</div>
+				</div>
+				</div>
+<!-- sixth dashborad ends here-->				 
+				 </div> <!-- third dashboard row ends here-->
+		
+			</div>
+			</div><!-- productPageLayout section ends here -->	
+<!-- container ends here -->	
+		</div>
   </section>
-  
+ <!-- content panel section Ends --> 
 
   
 
@@ -463,7 +552,7 @@
   <section>
     <div class="container footerLinks">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 col-xs-6 col-sm-3 ">
           <h3>Products</h3>
           <ul>
             <li><a href="#">Brake Pads</a></li>
@@ -478,9 +567,9 @@
             <li><a href="#">Hardware</a></li>
           </ul>
         </div>
-        <div class="col-md-3"><h3>Catelog</h3></div>
-        <div class="col-md-3"><h3>Promotions</h3></div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-xs-6 col-sm-3 "><h3>Catelog</h3></div>
+        <div class="col-md-3 col-xs-6 col-sm-3 "><h3>Promotions</h3></div>
+        <div class="col-md-3 col-xs-6 col-sm-3 ">
           <h3>Resources</h3>
           <ul>
             <li><a href="#">Technician Login</a></li>
@@ -492,7 +581,7 @@
             <li><a href="#">Find a shop</a></li>
           </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-xs-6 col-sm-3 ">
           <h3>About us</h3>
           <ul>
             <li><a href="#">Profile</a></li>
@@ -507,8 +596,8 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-sm-6 left">&copy; 2016 <a href="#">Brake Parts Inc</a>. All Rights Reserved.</div>
-        <div class="col-sm-6 right">
+        <div class="col-md-6 left col-xs-6 col-sm-6 ">&copy; 2016 <a href="#">Brake Parts Inc</a>. All Rights Reserved.</div>
+        <div class="col-md-6 right col-xs-6 col-sm-6">
             <ul class="pull-right">
                 <li><a href="#">Copyright</a></li>
                 <li><a href="#">Privacy Policy</a></li>

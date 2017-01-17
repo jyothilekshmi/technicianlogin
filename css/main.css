@@ -599,9 +599,13 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .rightMenuPanedashboard   .row.row3 .dashboard5 .middle textarea{width: 278px;height: 180px;background: white;border-radius: 5px;margin-left: 10px;}
 .rightMenuPanedashboard   .row.row3 .dashboard5 .submit button{color: white;background:#ed1c24;border: none;width: 125px;padding:10px;border-radius: 11px;margin-left: 23px;margin-top: 24px;}
 
-.rightMenuPanedashboard   .row.row3  .dashboard6  .distributionsearch{width:572px; height:345px;margin-left:15px;margin-top:25px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .distributionsearch .top{width:572px; height:50px;margin-top:25px;background:#363437;border-radius:5px 5px 0 0;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .distributionsearch .top label{color:white; margin-left:25px;margin-top:10px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .distributionsearch .content {height:291px;width:572px;background:white;border-radius:0 0 5px 5px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .distributionsearch .content .first label{margin-top: 12px;margin-left: 15px; height:170px; border-bottom:1px solid #989898; width:522px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .distributionsearch .content .second{height:72px;border-bottom:1px solid #989898; width:522px;margin-left: 15px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  {width:572px; height:345px;margin-left:25px;;margin-top:25px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .top{ width:570px;height:50px;background:#363437;border-radius:5px 5px 0 0;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .top label{color: white;margin-left: 25px;margin-top: 14px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content{height:293px; width:570px;background:white;border-radius:0 0 5px 5px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content label{margin-top: 15px;margin-left: 16px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .content1{display:inline;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .search input {margin-top: 10px;width:55%;margin-left: 15px;border-radius: 5px solid grey;font-size: 12px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .search span{margin-left: 305px;color:red;top:-27px;}
+
+

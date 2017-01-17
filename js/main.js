@@ -73,6 +73,21 @@ $(function()
     $('.scroll-pane').jScrollPane({
       autoReinitialise: true
     });
+<<<<<<< HEAD
+  });
+  
+  
+   // accordian
+   $(document).ready(function(){
+  $('.accordion-toggle').on('click', function(){
+    $(this).closest('.panel-group').children().each(function(){
+    $(this).find('>.panel-heading').removeClass('active');
+     });
+
+    $(this).closest('.panel-heading').toggleClass('active');
+  });
+});
+=======
   });*/
   
   /* added the below js query to get the calendar*/
@@ -86,4 +101,13 @@ $(function()
         });
   
   });
-  
+
+  $(document).ready(function(){
+    $('.accordion-toggle').on('click', function(){
+        $(this).closest('.panel-group').children().each(function(){
+            $(this).find('>.panel-heading').removeClass('active');
+        });
+        $(this).closest('.panel-heading').toggleClass('active');
+    });
+});
+

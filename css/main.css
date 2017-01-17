@@ -143,7 +143,7 @@ footer li{list-style: none; display: inline; padding: 0 5px;}
 footer a{color: #fff;}
 footer a:hover{color: #cd000b;}
 
-.productPageLayout{background: #b8b6b5;}
+
 
 .productPageLayout .leftMenuPane h2{margin-top: 0; text-transform: uppercase;}
 .productPageLayout .rightMenuPane{ background: #b8b6b5; width: 79%; min-height: 600px; padding-left: 33px; padding-right: 30px; float: right;}
@@ -315,44 +315,101 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 /*--------------------------------------------------------------------------------------*/
 /*                                   Added by Jyothi                                    */
 /*--------------------------------------------------------------------------------------*/
-.productPageLayout .leftMenuPane.techinicianlogin {background: #363437; width:173px;padding-left: 0px ; padding-right: 0px; postion:relative; min-height:1320px; }
-.productPageLayout .leftMenuPane.techinicianlogin  img{width:173px; height:60px;}
-.productPageLayout .leftMenuPane.techinicianlogin h4{color:white; margin-top: -48px;font-size: 17px;text-align: center;}
-.productPageLayout .leftMenuPane.techinicianlogin span{color:white;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li a{color:white;top:16px; text-transform:none; }
-.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li{text-transform:none;padding-bottom:24px; }
+.productPageLayout .leftMenuPane.techinicianlogin {background: #363437; width:173px;padding-left: 0px ; padding-right: 0px; postion:relative; min-height:1431px; }
+.productPageLayout .leftMenuPane.techinicianlogin .technicialLoginHeading{width:100%; float:left; background:url("../images/tech-center.png") no-repeat; color:#fff; text-align:center; text-transform:uppercase; font-size:17px; font-weight:bold;width: 100%;float: left;background: url("../images/tech-center.png") no-repeat;color: #fff;text-align: center;text-transform: uppercase;font-size: 15px;font-weight: bold;line-height: 1.1;padding: 10px 0;}
+.productPageLayout .leftMenuPane.techinicianlogin .userProfile{width:100%; float:left;}
+.productPageLayout .leftMenuPane.techinicianlogin .userProfile .userImage{width:60px; float:left; padding:15px 0 0 22px;}
+.productPageLayout .leftMenuPane.techinicianlogin .userProfile .userImage img{width:38px; height:38px; }
+.productPageLayout .leftMenuPane.techinicianlogin .userProfile .userName{ color: #fff;width: 108px;float: right;padding: 26px 0 0;font-size: 12px;font-weight: bold;}
+.ellipsis {white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.productPageLayout .leftMenuPane.techinicianlogin .technicialLeftAccordianPane{width: 100%; float: left; padding: 15px 0;}
+.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li a{color:white;text-transform:none; padding:10px 0 10px 10px; }
+.productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li{text-transform:none;}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li i{color:white; width:21px; height:16px; }
 .productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li .fa-angle-left{    margin-left: 9px;}
-.productPageLayout .leftMenuPane.techinicianlogin img#Top-car{width: 25%;margin-left: 22px;margin-top: 16px; margin-bottom:8px;}
 .productPageLayout .leftMenuPane.techinicianlogin #accordion  ul li:hover{  background:#ed1c24;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock{position:absolute; border-top:2px solid #454346; bottom:0px;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock button{ margin-left:16px; margin-right:16px; margin-top:15px; background:#e2252f;height:32px; width:138px; border-radius:25px; color:white; border:1px solid #e2252f}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock #LiveChat {margin-left:10px;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock #contact{color:#89888a; text-align:center; margin-top:16px;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock #contact li{padding-bottom:10px; background:none; text-transform:none; cursor: default;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons li{display:inline; float:left; background:none; border: 1px solid #9b9a9b;height: 29px;text-align: center;margin-bottom: 10px;width: 32px;padding-top: 5px; margin-left:3px;border-radius:3px;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons li i{color:#999a9b;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul{margin-left:16px;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .facebook:hover{background:#37589b;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .twitter:hover{background:#46d4fe;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .linkedin:hover{background:#0077b5;}
-.productPageLayout .leftMenuPane.techinicianlogin #accordion .LiveChatBlock .SocialMedia ul#socialicons .youtube:hover{background:#e62117;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock{position:absolute; border-top:2px solid #454346; bottom:0px;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock button{ margin-left:16px; margin-right:16px; margin-top:15px; background:#e2252f;height:32px; width:138px; border-radius:25px; color:white; border:1px solid #e2252f}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock #LiveChat {margin-left:10px;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock #contact{text-align: center;margin: 16px 0 0 0;padding: 0;font-size: 12px;color: #a8a8aa;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock #contact li{padding-bottom: 10px;background: none;text-transform: none;cursor: default;list-style: none;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia{width:100%; float:left;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li{display: inline;float: left;background: none;list-style: none;border: 1px solid #9b9a9b;height: 29px;text-align: center;margin-bottom: 10px;width: 32px;padding-top: 0;margin-left: 3px;border-radius: 3px;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li i{color:#999a9b;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul{width: 100%; float: left; margin: 0; padding: 0 15px;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li a{width:100%; float:left; padding-bottom: 7px; margin-top:0px;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li a:hover{color:#fff;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons .facebook a:hover{background:#37589b;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons .twitter a:hover{background:#46d4fe;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons .linkedin a:hover{background:#0077b5;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons .youtube a:hover{background:#e62117;}
 
 /*--------------------------------------------------------------------------------------*/
 /*                                   Tips and Tricks                                   */
 /*--------------------------------------------------------------------------------------*/
-.productPageLayout .rightMenuPane.TipsAndTricks {background: #b8b6b5;width:987px; float:left; min-height: 600px; padding-left:0px; padding-right: 0px;}
-.productPageLayout .rightMenuPane.TipsAndTricks .topMenu {background: url('../images/right-menu-bg.png');height:60px;margin-top:0px; margin-top: -26px;  }
+.productPageLayout .rightMenuPane.TipsAndTricks {background: #b8b6b5;width:987px; float:left;  padding-left:0px; padding-right: 0px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .topMenu {background: url('../images/right-menu-bg.png');height:60px;margin-top:0px; }
+.productPageLayout .rightMenuPane.TipsAndTricks .topMenu h2{margin-top:0px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .topMenu h2,h5{margin-left:25px; font-style: italic; }
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane{margin-left: 25px;
-    margin-top: 29px;
-    margin-right: 36px;
-    min-height: 925px;
-	background: #fff;
-    border-radius: 5px 5px 0 0;
-    padding: 15px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane {margin-left: 25px; margin-top: 29px; margin-right: 36px; min-height: 925px; background: #fff; padding: 15px; margin-bottom:0px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .searchtips h4{margin-left:31px; color:#cfcfcf;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .searchtips .searchButton{margin-left:0px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane button .search{padding-right: 267px; }
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .favorite{margin-left:0px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-circle-o{font-size:27px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rate img{float:none;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .ratings{float:right;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-dot-circle-o{font-size:27px; margin-left:49px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane #accordion1 .videoUrl{}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .myfav{margin-left: 9px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .allTips{margin-left: 9px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane button{height: 38px;border: 1px solid #f6f6f6;border-radius: 5px; margin-left:15px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .numbering{margin-left: 29px; margin-bottom:40px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane #accordion1 .panel-default .panel-title {margin-top: -1px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList{margin-top:20px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #headingOne{height: 52px; padding-top: 1px; padding-bottom: 1px; padding-left: 1px; padding-right: 0px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1{margin-left:15px; margin-right:10px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane #accordion1 .panel-default{margin-top:0px;}
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList  a .fa-angle-down{background:#c9c9c9;padding-bottom: 11px;
+    width: 45px;
+    padding-top: 13px;
+    font-weight: bold;
+    padding-left: 13px;
+    color:#656565;
+    font-size: 28px;
+	margin-left:572px;
+    }
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList  a .fa-lightbulb-o{background:#c9c9c9;
+    padding: 11px;
+    padding-top: 15px;
+    width: 45px;
+    color:#656565;
+    font-weight: bold;
+    font-size: 26px;}
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1 .panel-heading.active{background:#7c7c7e;}
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1 .panel-heading.active a .fa-angle-down{background:#ed1b24; color:#ffffff}
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1 .panel-heading.active a .fa-lightbulb-o{background:#ed1b24; color:#ffffff}
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #headingTwo{height: 52px; padding-top: 1px; padding-bottom: 1px; padding-left: 1px; padding-right: 0px;}
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList #headingThree{height: 52px; padding-top: 1px; padding-bottom: 1px; padding-left: 1px; padding-right: 0px;}
+    .productPageLayout .rightMenuPane.TipsAndTricks .share{color:white;margin-left: 25px; margin-right: 36px;  background: #363437; padding: 1px; border-radius:4px; margin-top:25px;margin-bottom: 40px;}
+	.productPageLayout .rightMenuPane.TipsAndTricks .share .row img{padding-left:95px;}
+	.productPageLayout .rightMenuPane.TipsAndTricks .share .row{margin-left: 25px; margin-right: 36px;}
+	.productPageLayout .rightMenuPane.TipsAndTricks .share .row h3{margin-top:22px; margin-bottom:42px; margin-left:10px;}
+	.productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick{color: #999a9c; background:#fefefe;padding-bottom:180px; width:875px; margin-left:30px;margin-right:25px; border-radius: 6px; }
+	.productPageLayout .rightMenuPane.TipsAndTricks .share button{margin-left: 30px;
+margin-right: 16px;
+margin-top: 24px;
+background: #ed1b24;
+height: 38px;
+width: 127px;
+border-radius: 25px;
+color: white;
+border: 1px solid #ed1b24;
+margin-bottom:20px;}
 
-
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .desktopSearchButton{position: absolute;right: 55px;width: 39px;z-index: 100;top: 0;height: 35px;opacity: 0;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .input-group-btn{right: 56px;z-index: 100;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .input-group-btn .btn.btn-default{background: transparent !important;border: none;height: 39px;}
 /*--------------------------------------------------------------------------------------*/
 /*                                   Added by Jyothi                                    */
 /*--------------------------------------------------------------------------------------*/
@@ -421,8 +478,64 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
   .wheelCylindarBlock{width: 100%;}
   .searchBulletinPane{width: 100%;}
   .searchBulletinPane input{width: 80%;}
+ /*start-added by jyothi for tips and tricks*/ 
+  .productPageLayout .rightMenuPane.TipsAndTricks{width:100%;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .searchtips .searchButton{margin-left:0px;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane button .search{padding-right: 181px; }
+  .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .favorite{margin-left:3px;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-circle-o{font-size:22px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-dot-circle-o{font-size:24px; margin-left:29px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1{margin-left:0px; margin-right:0px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick {
+    background: #fefefe;
+   
+    width: 245px;
+    margin-left: 30px;
+    margin-right: 25px;
+    border-radius: 6px;
+	color: #999a9c;
+}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList a .fa-angle-down {
+    padding-top: 13px;
+    padding-left: 10px;
+    margin-left: 15px;
+    padding-right: 9px;
+}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .numbering {
+margin-left: 0px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .share .row img{padding-left:0px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rate img{float:none; width:14%;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rateList{display:block;}
+
+ /*end-added by jyothi for tips and tricks*/  
+  
 	}
-@media screen and (max-device-width: 767px) and (orientation: landscape) {}
+@media screen and (max-device-width: 767px) and (orientation: landscape) {
+	 /*start-added by jyothi for tips and tricks*/
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane button .search{padding-right: 267px; }
+	 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .favorite{margin-left:43px;}
+	 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-circle-o{font-size:27px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-dot-circle-o{font-size:27px; margin-left:49px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1{margin-left:0px; margin-right:0px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick {
+    background: #fefefe;
+    width: 518px;
+    margin-left: 30px;
+    margin-right: 25px;
+    border-radius: 6px;
+	color: #999a9c;
+	padding-bottom:180px;
+}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList a .fa-angle-down {
+    padding-top: 13px;
+    padding-left: 10px;
+    margin-left: 295px;
+    padding-right: 9px;
+}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rate img{float:none; width:6%;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rateList{display:inline;}
+	 /*end-added by jyothi for tips and tricks*/  
+}
 
 
 /*--------------------------------------------------------------------------------------*/
@@ -457,6 +570,15 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
   .wheelCylindarBlock{width: 100%; margin: 10px 0;}
   .searchBulletinPane{width: 100%;}
   .searchBulletinPane input{width: 80%;}
+   /*start-added by jyothi for tips and tricks*/  
+  .productPageLayout .rightMenuPane.TipsAndTricks {width: 100%;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick {width: 92%;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .share .row img {padding-left: 56px;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1 {margin-left: 12px;margin-right: 0;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList a .fa-angle-down {margin-left: 348px;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .favorite{margin-left:43px;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rate img{float:none; width:6%;}
+ /*end-added by jyothi for tips and tricks*/ 
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)  {
@@ -470,42 +592,57 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 	.bhoechie-tab-menu .list-group-item{word-wrap: break-word;}
   .searchBulletinPane{width: 100%;}
   .searchBulletinPane input{width: 80%;}
-
+   /*start-added by jyothi for tips and tricks*/  
+.productPageLayout .rightMenuPane.TipsAndTricks {background: #b8b6b5; width:795px; float:left;  padding-left:0px; padding-right: 0px;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick {width: 92%;}
+  .productPageLayout .rightMenuPane.TipsAndTricks .share .row img {padding-left: 60px;}
+    .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList a .fa-angle-down {margin-left: 381px;}
+	.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1 {
+    margin-left: 15px;
+    margin-right: 9px;
+}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane button .search {padding-right: 187px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .favorite{margin-left:0px;}
+ /*end-added by jyothi for tips and tricks*/  
 }
 
 /* ----------------------Adeed By Sushma ------------------------*/
 /*---------------------------------------------------------------*/
-.row.productPageLayout .rightMenuPanedashboard{background: url('../images/menu.jpg') repeat; width:987px;height:60px;}
+
+.row.productPageLayout .rightMenuPanedashboard{background: #b8b6b5;width:987px; height:1431px;font-family:arial;}
+.row.productPageLayout .rightMenuPanedashboard  .row.head  .leftpane .row.dashboard{background: url('../images/menu.jpg') repeat; width:987px;height:60px;}
 .row.productPageLayout .rightMenuPanedashboard .lefttext .title h4{margin-left:26px;margin-top:15px;}
 .row.productPageLayout .rightMenuPanedashboard .title h6{margin-left:26px; color:#999999;margin-top:-8px;}
-.row.productPageLayout .rightMenuPanedashboard  .dashboardtext #text{color:#ed1c24; text-decoration: underline;}
-.rightMenuPanedashboard  .row.dashboardbody .dashboardcontent{margin-top:15px;}
-.rightMenuPanedashboard  .row.dashboardbody .dashboardcontent p {font-family:Calibri;font-size:16px;font-weight:bold;}
+.row.productPageLayout .rightMenuPanedashboard   .row.head .dashboardtext #text{color:#ed1c24; text-decoration: underline;}
+.row.productPageLayout  .rightMenuPanedashboard  .row.head .dashboardtext  #pts img{display:inline;}
 
-.rightMenuPanedashboard  .dashboard1 .dashboardcontent1{margin-top:25px;padding-left:25px;}
-.rightMenuPanedashboard  .dashboard1 .dashboardcontent1 .firstdashboard{width:330px;height:280px;background:white;border-radius: 5px;}
+.rightMenuPanedashboard  .row.dashboardbody .dashboardcontent{margin-top:15px;}
+.rightMenuPanedashboard  .row.dashboardbody .dashboardcontent p {font-size: 13px;font-weight:bold;}
+
+.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1{margin-top:25px;padding-left:25px;}
+.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard{width:330px;height:280px;background:white;border-radius: 5px;}
 
 .rightMenuPanedashboard  .row.dashboard1{ border:1px solid #b8b6b5;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1 .firstdashboard  .first{background:#363437; height: 50px; width: 330px; border-radius: 5px 5px 0 0;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first ul li label{padding:15px;color:white;font-family:Ebrima; font-size:15px;}
+.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1 .firstdashboard  .first{background:#363437; height: 50px; width: 330px; border-radius: 5px 5px 0 0;font-size:13px;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first ul li label{padding:15px;color:white; font-size:15px;}
 .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul li:nth-child(2){color: white;border: 1px solid grey;padding: 2px 9px 4px 6px; margin-left:80px;}
 .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul li a{color:white;}
 .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul  #star{color: white;border: 1px solid grey;padding: 2px 9px 4px 6px;}
 .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul  #star a{color:#5e5d5f;}
 
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second {width:333px;height:50px; width:100%;margin-top: 10px; border-bottom:1px solid #d8d8d8;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second {width:333px;height:50px; width:100%;margin-top: 10px; border-bottom:1px solid #d8d8d8;font-size:13px;}
 .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second ul li:first-child{width:80%;}
 .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second  ul li p{color:#666666; padding-left:20px;}
 .rightMenuPanedashboard   .row.dashboard1   .dashboardcontent1 .firstdashboard  .second  ul #star a i{color:#cdcdcd;}
 .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second  ul #download a i{color:#5778fd;}
 
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .third {width:333px;height:62px; width:100%;margin-top: 10px; border-bottom:1px solid #d8d8d8 ;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .third {width:333px;height:62px; width:100%;margin-top: 10px; border-bottom:1px solid #d8d8d8 ;font-size:13px;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1 .firstdashboard  .third  ul li:first-child{width:80%;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1 .firstdashboard  .third  ul li p{color:#666666; padding-left:20px;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1  .firstdashboard  .third  ul #star a i{color:#cdcdcd;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1  .firstdashboard  .third  ul #download a i{color:#5778fd;}
 
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1  .firstdashboard  .fourth {width:333px;height:50px; width:100%;margin-top: 10px;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1  .firstdashboard  .fourth {width:333px;height:50px; width:100%;margin-top: 10px;font-size:13px;}
 .rightMenuPanedashboard .row.dashboard1  .dashboardcontent1  .firstdashboard  .fourth  ul li:first-child{width:80%;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1  .firstdashboard  .fourth  ul li p{color:#666666; padding-left:20px;}
 .rightMenuPanedashboard  .row.dashboard1   .dashboardcontent1  .firstdashboard  .fourth   ul #star a i{color:#cdcdcd;}
@@ -514,14 +651,14 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 
 
 
-.rightMenuPanedashboard  .dashboard1 .dashboardcontent2{width:570px;height:280px;margin-left: 29px;  }
+.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard{width:570px;height:280px;margin-left: 29px;  }
 .rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard .top{width:570px;height:50px;background:#363437;border-radius:5px;}
 .rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard{margin-top: 25px;}
 .rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane{width:570px;height:230px;}
 .rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane{width:248px;height:230px;background:black;padding-left:0;border-radius:0 0 0 5px;}
 .rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane{width:322px;;height:230px; background:white;border-radius:0 0 5px 0;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2  .seconddashboard  .top{width:570px;height:50px;background:#363437;border-radius:5px 5px 0 0;}
-.rightMenuPanedashboard .row.dashboard1  .dashboardcontent2  .seconddashboard  .top ul li label{color:white;font-family:Ebrima;font-size:15px;margin-top:15px;margin-left:20px;}
+.rightMenuPanedashboard .row.dashboard1  .dashboardcontent2  .seconddashboard  .top ul li label{color:white;font-size:15px;margin-top:15px;margin-left:20px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2  .seconddashboard  .top ul .recent{border:1px solid grey;padding:2px;margin-left:2px;}
 .rightMenuPanedashboard  .row.dashboard1 .dashboardcontent2 .seconddashboard   .top ul  .recent a{color:grey;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2 .seconddashboard  .top ul .recent{margin-left: 175px;}
@@ -536,28 +673,28 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .leftcontentpane iframe{margin-top:45px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one{width:310; height:60px; border:1px solid #f3f3f3;margin-top:3px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul{margin-top:5px;margin-left:3px; color:#666666;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li:nth-child(3){font-size:12px;font-family:Gill Sans MT regular;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li:nth-child(3){font-size:12px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li #star a i{color:yellow;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li #star {padding-left:16px;}
 
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two{width:310; height:60px; border:1px solid #f3f3f3;margin-top:3px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul{margin-top:5px;margin-left:3px; color:#666666;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li:nth-child(3){font-size:12px;font-family:Gill Sans MT regular;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li:nth-child(3){font-size:12px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li #star a i{color:yellow;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li #star{padding-left:45px;}
 
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three{width:310; height:60px; border:1px solid #f3f3f3;margin-top:3px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul{margin-top:5px;margin-left:3px; color:#666666;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane  #view{margin-top: 17px;float: right;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li:nth-child(3){font-size:12px;font-family:Gill Sans MT regular;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li:nth-child(3){font-size:12px;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li #star a i{color:yellow;}
 .rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li #star {padding-left:16px;}
 
 
 
-.rightMenuPanedashboard  .row.dashboardsecond .dashboard3{margin-left:25px;margin-top:28px;width:574px; height:264px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3{margin-left:25px;margin-top:25px;width:574px; height:264px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .first {width: 254px;height: 265px;background: #dfe0e2;border-radius: 5px 0 0 5px;}
-.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second{ width:320px;height: 264px;background: #fefefe; }
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second{ width:320px;height: 265px;background: #fefefe;border-radius: 0 5px 5px 0; }
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second .title{margin-left: 10px;margin-top: 25px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content1 {width: 291px;height:50px;border-bottom: 1px solid #989898;margin-top: 10px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content1 ul{font-size:12px; font-family:Arial; color:red; margin-top: 3px;margin-left: 2px;}
@@ -582,14 +719,15 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content3  #map{padding-left: 40px;margin-top: -8px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content3  #map ul li:first-child{color:#5778fd;font-size:12px;padding-right:0px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content3  #map ul li:nth-child(2){color:#989898;font-size:12px;padding-right:0px;}
-.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content3 a{float: right;margin-top: 15px;}
+.rightMenuPanedashboard   .row.dashboardsecond  .dashboard3  .row.contentpane .second  .view{float:right;}
 
-.rightMenuPanedashboard  .row.dashboardsecond .dashboard4{ background: #55aded;width: 315px;height: 265px;margin-top: 26px; margin-left: 37px;border-radius: 5px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4{ background: #55aded;width: 315px;height: 265px;margin-top: 25px; margin-left:29px;border-radius: 5px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text1{margin-top: 20px;color: white;margin-left: 15px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text2{ margin-left: 15px;color: white;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text3{   margin-left: 25px;  margin-top: 25px;font-size: 12px;color: white;}
-.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 {margin-top: 55px;color: white;margin-left: 25px;}
-.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4  i{font-size: 40px; margin-left: 75px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 {margin-top:65px;color: white;margin-left: 25px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4  i{font-size: 40px; float:right; margin-top:-20px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 a{color: white;}
 
 .rightMenuPanedashboard   .row.row3 .dashboard5{background:#363437; width:328px; height:343px;border-radius:5px; margin-left:25px;margin-top:25px;}
 .rightMenuPanedashboard   .row.row3 .dashboard5 .top{height:79px;}
@@ -599,6 +737,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .rightMenuPanedashboard   .row.row3 .dashboard5 .middle textarea{width: 278px;height: 180px;background: white;border-radius: 5px;margin-left: 10px;}
 .rightMenuPanedashboard   .row.row3 .dashboard5 .submit button{color: white;background:#ed1c24;border: none;width: 125px;padding:10px;border-radius: 11px;margin-left: 23px;margin-top: 24px;}
 
+<<<<<<< HEAD
 .rightMenuPanedashboard   .row.row3  .dashboard6  {width:572px; height:345px;margin-left:25px;;margin-top:25px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .top{ width:570px;height:50px;background:#363437;border-radius:5px 5px 0 0;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .top label{color: white;margin-left: 25px;margin-top: 14px;}
@@ -609,3 +748,338 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .rightMenuPanedashboard   .row.row3  .dashboard6 .content  .search span{margin-left: 305px;color:red;top:-27px;}
 
 
+=======
+.rightMenuPanedashboard   .row.row3  .dashboard6  {width:572px; height:345px;margin-left:15px;;margin-top:25px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .top{ width:570px;height:50px;background:#363437;border-radius:5px 5px 0 0;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .top label{color: white;margin-left: 25px;margin-top: 14px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content{height:293px; width:570px;background:white;border-radius:0 0 5px 5px;padding-left:15px;font-family:arial;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content label{margin-top: 15px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search input{width:115%;border-radius:25px;margin-top: 8px;height: 35px;font-size: 12px;box-shadow: none;background: #e8e8e8;border: 1px solid white}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search .glyphicon{margin-left:265px; color: red; top:-25px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search .text{font-size:10px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1  .text{margin-top:13px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1  .text p {padding-left:25px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search span i {padding: 6px; color:red;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .loc button{width: 80%;border-radius:25px;margin-left:15px;background:red;margin-top: 8px;height: 35px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .loc .text{font-size:10px; color:white;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .loc span i {padding: 6px; color:white;}
+
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .dist {margin-top: -7px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .dist p {padding-left:10px;color:grey;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .radio {margin-top: -23px;}
+
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 {border-bottom: 1px solid grey;width: 100%;padding-left:10px;margin-left: -5px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .one{padding-left:15px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .one #text1{font-size: 11px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .one #text2{font-size:10px;margin-top: -9px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .two #text1{font-size: 11px;padding-left: 25px;}
+
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .two p a{font-size: 11px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .three i{font-size:11px;padding-left: 10px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .three #text1{font-size:11px;padding-left: 10px;margin-top: -7px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .three #text2{font-size:11px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .star i{padding-left:20px;color: yellow;margin-top: 15px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .three i p{margin-top: -11px;margin-left: 15px;}
+
+
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 {border-bottom: 1px solid grey;width: 100%;padding-left:12px;margin-top: 6px;margin-left: -5px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .one{padding-left:15px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .one #text1{font-size: 11px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .one #text2{font-size:10px;margin-top: -9px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .two #text1{font-size: 11px;padding-left: 25px;}
+
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .two p a{font-size: 11px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .three i{font-size:11px;padding-left: 10px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .three #text1{font-size:11px;padding-left: 10px;margin-top: -7px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .three #text2{font-size:11px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .three i p{margin-top: -11px;margin-left: 15px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .star i{padding-left:20px;color: yellow;margin-top: 15px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .view a{float: right;margin-top: 12px;margin-right: 12px;}
+
+/*----------------------------------Mobile Styles---------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 767px){
+.row.productPageLayout .rightMenuPanedashboard{width:100%;height:auto;}
+.row.productPageLayout .rightMenuPanedashboard  .row.head  .leftpane .row.dashboard{width: 359px;}
+.row.productPageLayout .rightMenuPanedashboard .lefttext .title{margin-left:-28px;font-size:9px;}
+.row.productPageLayout .rightMenuPanedashboard .title h6{ color:#999999;margin-top:-8px;font-size:9px;}
+.row.productPageLayout .rightMenuPanedashboard  .rightext .dashboardtext  {font-size: 11px;float: right;}
+ .rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1{margin-top:25px;padding-left: 14px;}
+ .rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard {float: right;width: 100%;}
+ .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2  .seconddashboard  .top{width:100%;}
+  .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2  .seconddashboard  .top ul{margin-left: -5px;padding-left:0px;}
+.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2  .seconddashboard  .top ul li:first-child{padding-left: 5px;padding-right: 5px;}
+.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2 .seconddashboard  .top ul .recent{margin-left: -2px;font-size: 12px;padding: 2px;}
+.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2 .seconddashboard  .top ul .favourite{margin-left: -3px;font-size: 12px;padding: 2px;}
+.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane{width:100%;}
+.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane{width:100%;}
+.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane iframe{width: 100%;padding-left: 16px;}
+.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane{width:100%;}
+.rightMenuPanedashboard .row.dashboard1  .dashboardcontent2  .seconddashboard  .top ul li label{font-size:14px;margin-left:10px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3{margin-left:15px;margin-top:255px;width:100%;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .first {width: 92%;border-radius: 5px 5px 0 0; padding-left: 50px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second{ width: 92%;border-radius: 0 0 5px 5px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4{width: 92%;margin-left: 16px;margin-top:290px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text1{margin-left: 15px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text2{margin-left: 15px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 {margin-top: 70px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 i {float: right;margin-top: -20px;}
+.rightMenuPanedashboard   .row.row3 .dashboard5 {margin-left: 16px;}
+.rightMenuPanedashboard   .row.dashboardsecond  .dashboard3  .row.contentpane .second  .view{float:right;}
+
+.rightMenuPanedashboard   .row.row3  .dashboard6  {width:100%;margin-left:0px;margin-bottom: 190px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .top{width:100%;}
+/*
+.rightMenuPanedashboard   .row.row3  .dashboard6  .content{width: 100%;margin-left: 0px;height: 477px;padding-left:15px;font-family: arial;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1{width:100%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .search{width:100%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .search input{width:100%;margin-left: 6px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .text {margin-top: -20px;padding-left:0px;}
+ .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .loc {width: 100%;margin-top: -18px;}
+ .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .loc  button span i{margin-left: -35px;font-size: 20px;}
+ .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .loc  button  .text{font-size: 13px;}
+ .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .dist {margin-top: 3px; width:100%;}
+ .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2  .radio{margin-top:-18px;margin-left:10px;width:100%;}
+ /*.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3  .one {width:50%;}
+  .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3  .two {width:50%;padding-left:0px;}
+  .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .two #text1{font-size: 11px;padding-left:0px;}
+   .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3  .three {width:50%;padding-left: 6px;}
+    .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4  .one {width:50%;}
+  .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .two {width:50%;padding-left:0px;}
+  .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .two #text1{font-size: 11px;padding-left:0px;}
+   .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4  .three {width:50%;padding-left: 6px;}*/
+
+
+}
+
+
+@media screen and (max-device-width: 767px) and (orientation: landscape) {
+.row.productPageLayout .rightMenuPanedashboard{width:100%;}
+.row.productPageLayout .rightMenuPanedashboard  .row.head  .leftpane .row.dashboard{width:639px;}
+.row.productPageLayout	 .rightMenuPanedashboard .row.dashboard  .rightext  {float:right;}
+.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard{width:100%;}
+.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .first{width:100%;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul li:nth-child(2){margin-left:360px;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second  ul  #star{padding-left:48px;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .third  ul  #star{padding-left:48px;}
+.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .fourth  ul  #star{padding-left:48px;}
+.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane{width:40%;}
+.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane{width:60%;}
+.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2  .seconddashboard  .top{width:100%;}
+.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard{margin-left:0px; width:100%; }
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3{margin-left:15px;margin-top:25px;width:100%;}
+
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul{margin-left:6px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li{margin-left: 3px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li:nth-child(2){margin-left: 10px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li:nth-child(3){margin-left: 15px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li:nth-child(4){margin-left: 15px;}
+
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul{margin-left:6px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li{margin-left: 3px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li:nth-child(2){margin-left: 10px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li:nth-child(3){margin-left: 15px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li:nth-child(4){margin-left: 15px;}
+
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul{margin-left:6px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li{margin-left: 3px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li:nth-child(2){margin-left: 10px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li:nth-child(3){margin-left: 15px;}
+.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li:nth-child(4){margin-left: 13px;}
+.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane{width:100%;}
+
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3{margin-left:16px;margin-top:25px;width:100%;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .first {width: 40%;border-radius: 5px 0 0 5px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second {width: 55%;border-radius: 0 5px 5px 0;}
+.rightMenuPanedashboard   .row.dashboardsecond  .dashboard3  .row.contentpane .second  .view{float:right;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content3 a{float: right;margin-right:-30px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4{width: 95%;margin-left: 16px;margin-top: 25px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text1{margin-left: 10px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text2{margin-left: 10px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 {margin-top: 80px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 i {margin-right: 15px;margin-top: -15px;float: right;}
+.rightMenuPanedashboard   .row.row3 .dashboard5{width: 93%;}
+.rightMenuPanedashboard   .row.row3 .dashboard5 .top{height: 79px;}
+.rightMenuPanedashboard   .row.row3 .dashboard5 .middle textarea{width: 96%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  {width:100%;margin-left:0px;margin-bottom: 25px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .top{width:98%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .content{width:98%;height: 300px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search input{width:112%;}
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------TAB STYLES---------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 970px){
+	.row.productPageLayout .rightMenuPanedashboard{width:100%;height: auto;}
+	.row.productPageLayout .rightMenuPanedashboard  .row.head .row.dashboard {width:100%;}
+	.row.productPageLayout .rightMenuPanedashboard  .rightext .dashboardtext  {float:right;}
+	.row.productPageLayout .rightMenuPanedashboard  .row.head  .leftpane .row.dashboard{width: 750px;}
+	.row.productPageLayout .rightMenuPanedashboard  .lefttext .title{margin-left: -20px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1{width:100%;padding-left: 15px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard{width:100%;height: 250px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .first{width:100%;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .second{height:auto;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .third{height:auto;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .fourth{height:auto;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul li:nth-child(2){margin-left:480px;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second  ul li:first-child{width:89%;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .third  ul li:first-child{width:89%;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .fourth  ul li:first-child{width:89%;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2{width:100%;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard{width:100%; margin-left: 0px;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard .top{width:100%;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard .top   ul .recent {margin-left: 328px;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane{height: 230px;width:100%;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane{width: 45%;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane{width: 55%;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane  iframe {width: 100%;margin-left: 8px;}
+    .rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane .one{margin-top:5px;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane .one ul{margin-top:5px;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane .one ul li{margin-left:10px;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane .two ul li{margin-left:10px;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane .three ul li{margin-left:10px;}
+	.rightMenuPanedashboard   .row.dashboardsecond  .dashboard3  {width:100%;margin-left: 15px;}
+	.rightMenuPanedashboard   .row.dashboardsecond  .dashboard3  .row.contentpane{width:100%;}
+	.rightMenuPanedashboard   .row.dashboardsecond  .dashboard3  .row.contentpane .first{width:45%;}
+	.rightMenuPanedashboard   .row.dashboardsecond  .dashboard3  .row.contentpane .first .form-group{margin-left:25px}
+	.rightMenuPanedashboard   .row.dashboardsecond  .dashboard3  .row.contentpane .second{width:55%;}
+	.rightMenuPanedashboard   .row.dashboardsecond  .dashboard3  .row.contentpane .second .content1{margin-left:20px;}
+	.rightMenuPanedashboard   .row.dashboardsecond  .dashboard3  .row.contentpane .second .content2{margin-left:20px;}
+	.rightMenuPanedashboard   .row.dashboardsecond  .dashboard3  .row.contentpane .second .content3{margin-left:20px;}
+	.rightMenuPanedashboard   .row.dashboardsecond  .dashboard3  .row.contentpane .second  .view{float:right;}
+	.rightMenuPanedashboard   .row.dashboardsecond  .dashboard4 {width:96%;margin-left: 15px;}
+	.rightMenuPanedashboard   .row.dashboardsecond  .dashboard4 #text4 i{float:right;}
+	.rightMenuPanedashboard   .row.row3 .dashboard5  {width:96%; margin-left:15px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard5 .middle textarea{width:97%;}
+	.rightMenuPanedashboard   .row.row3  .dashboard5 .submit {  width:30%;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6{width: 100%;margin-left:0px; margin-bottom: 30px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .top{width: 100%;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content{width: 100%;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search .glyphicon{margin-left:355px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .radio {margin-left: -99px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .radio label{padding-left: 30px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search input{width:112%}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 {margin-left:2px;width:97%;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .one #text1{font-size:12px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .one #text2{font-size:11px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .two {margin-left:0px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .three {margin-left:45px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .star {margin-left:6px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4{margin-left:2px;width:97%;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .one #text1{font-size:12px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .one #text2{font-size:11px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .two {margin-left:0px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .three {margin-left:-6px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .three #text1{margin-left:-13px;font-family:arial;font-size:11px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .three i{font-size:11px;padding-left:0px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .star {margin-left:6px;margin-top: 15px;}
+	
+}
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape)  {
+	.row.productPageLayout .rightMenuPanedashboard{width:82%;font-family:arial;font-size:13px;}
+	.row.productPageLayout	 .rightMenuPanedashboard .row.dashboard {width:104%;height: auto;}
+	.row.productPageLayout .rightMenuPanedashboard  .row.head  .leftpane .row.dashboard{width: 795px;}
+	.row.productPageLayout .rightMenuPanedashboard  .lefttext .title h4 {margin-left:0px;}
+	.row.productPageLayout .rightMenuPanedashboard  .lefttext .title h6 {margin-left:0px;}
+	.row.productPageLayout .rightMenuPanedashboard  .rightext .dashboardtext  {margin-left: -40px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1{padding-left:0px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard{width:280px;margin-left: 10px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .first{width:280px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .first ul{padding-left: 0; margin-left:-5px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .first ul li label{font-family:Arial;font-size:12px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .first ul li{padding-left: 0px;padding-right: 6px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .second ul li{padding-left: 0px;padding-right: 6px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .third ul li{padding-left: 0px;padding-right: 6px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .fourth ul li{padding-left: 0px;padding-right: 6px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent2 .seconddashboard{width:485px;margin-left:20px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent2 .seconddashboard .top{width:485px;font-family: Arial;font-size: 11px;}
+	.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent2 .seconddashboard .top ul li label{margin-left: 20px;font-family: arial;font-size: 14px;}
+	.row.dashboard1 .dashboardcontent2 .seconddashboard .top ul li {padding-left:0px;padding-right:0px;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane{width:200px;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane iframe{width:200px;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane{width:285px;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane .one{margin-top: 5px;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane .one ul li {padding-left:0px;padding-right:2px;margin-left:0px;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane .two ul li {padding-left:0px;padding-right:2px;margin-left:0px;}
+	.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane .three ul li {padding-left:0px;padding-right:2px;margin-left:0px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3  {margin-left:10px;}
+	.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .first {width: 223px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second {width:289px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second .title{margin-left:0px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content1{width:266px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content2{width:266px;}
+
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content1 ul{margin-left:-9px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content1 ul li{padding-left: 0px;}
+	.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content2 ul{margin-left:-9px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content2 ul li{padding-left: 0px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content3 ul{margin-left:-9px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard3   .second  .content3 ul li{padding-left: 0px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4 {margin-left:-55px;width:255px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text1{margin-top: 12px;margin-left: 5px;font-size: 13px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text2 {margin-left:15px;font-size: 13px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4{margin-left:0px;margin-top:79px;font-size:13px;}
+.rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 i{float: right;margin-top: -35px;}
+	.rightMenuPanedashboard   .row.row3 .dashboard5  {width:35%; margin-left:11px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard5 .middle textarea{width:100%;margin-left:0px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 {width:64%;margin-left: -5px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content{width:485px;padding-left: 14px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content label{margin-top: 13px;padding-left: 15px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .top{width:485px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search input{width:110%; font-size: 10px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search .glyphicon{margin-left: 230px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1  .text{margin-left: -13px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .one #text1{font-size:9px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .two #text1{font-size:10px;font-family:arial;padding-left:0px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .three #text1{font-size:9px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content3 .star i{margin-top: 15px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .one #text1{font-size:9px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .two #text1{font-size:10px;font-family:arial;padding-left:0px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .three #text1{font-size:9px;font-family:arial;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .row.content4 .star i{margin-top: 15px;}
+	.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .view a{margin-top: 26px;}
+	}
+
+
+/*-----------------------------------------------END SUSHMA CHANGES-------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+/*  ---------------------------------------------------------------------------------------------------
+-----------------------------------------SHRUTI---------------------------------------------------------
+-------------------------------------------------------------------------------------------------------*/
+.rightbody.techinicianlogin .row.learning-center  .lefttext {background-color:#e2e2e2;width: 987px;}
+.rightbody.techinicianlogin .row.learning-center  .lefttext .title i{margin-left:10px;}
+
+.rightbody.techinicianlogin .row.learning-center-body {background-color:#b8b6b5;width: 987px;min-height: 1371px;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttext{background-color:#b8b6b5;width:797px;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody{height:auto;background-color:#ffffff;width: 943px;margin: 20px 0px 25px 7px; color:#b7b7b7;border-radius:0.2em;box-shadow:2px; }
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody .head {padding: 20px 20px 0px 20px ;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody .head #header{font-family:arial;font-size: 18px;  text-align:left-align;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody .head #body{font-family:arial; font-size:14px;  text-align:left-align;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody .head #border{border-bottom-style:solid;border-bottom-color: #999999;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody  .subhead{padding: 0px 20px 20px 20px;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody  .subhead a{color:#b7b7b7;font-weight:600;}
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody  .subhead #subheader{color:#ed1b24;font-weight: 800;margin-bottom: 3px;}
+
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody .subhead #body{font-family:arial; font-size:14px;  text-align:left-align;}
+
+.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody .subhead #body{font-family:arial; font-size:14px;  text-align:left-align;}
+/*---------------mobile-styles-----------------*/
+@media screen and (max-width: 767px){
+	.rightbody.techinicianlogin .row.learning-center  .lefttext {width: 375px;}
+	.rightbody.techinicianlogin .row.learning-center-body {width: 375px;}
+	.rightbody.techinicianlogin .row.learning-center-body  .lefttextbody .Insidelefttextbody{width: 100%; margin-left: 0;}
+}
+@media screen and (max-device-width: 767px) and (orientation: landscape){
+	.rightbody.techinicianlogin .row.learning-center  .lefttext {width: 100%;}
+	.rightbody.techinicianlogin .row.learning-center-body {width: 105%;}
+}
+>>>>>>> origin/master
+>>>>>>> origin/master

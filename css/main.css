@@ -395,7 +395,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 	.productPageLayout .rightMenuPane.TipsAndTricks .share .row img{padding-left:95px;}
 	.productPageLayout .rightMenuPane.TipsAndTricks .share .row{margin-left: 25px; margin-right: 36px;}
 	.productPageLayout .rightMenuPane.TipsAndTricks .share .row h3{margin-top:22px; margin-bottom:42px; margin-left:10px;}
-	.productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick{background:#fefefe;height:180px; width:875px; margin-left:30px;margin-right:25px; border-radius: 6px; }
+	.productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick{color: #999a9c; background:#fefefe;padding-bottom:180px; width:875px; margin-left:30px;margin-right:25px; border-radius: 6px; }
 	.productPageLayout .rightMenuPane.TipsAndTricks .share button{margin-left: 30px;
 margin-right: 16px;
 margin-top: 24px;
@@ -407,6 +407,9 @@ color: white;
 border: 1px solid #ed1b24;
 margin-bottom:20px;}
 
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .desktopSearchButton{position: absolute;right: 55px;width: 39px;z-index: 100;top: 0;height: 35px;opacity: 0;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .input-group-btn{right: 56px;z-index: 100;}
+.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .input-group-btn .btn.btn-default{background: transparent !important;border: none;height: 39px;}
 /*--------------------------------------------------------------------------------------*/
 /*                                   Added by Jyothi                                    */
 /*--------------------------------------------------------------------------------------*/
@@ -485,11 +488,12 @@ margin-bottom:20px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1{margin-left:0px; margin-right:0px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick {
     background: #fefefe;
-    height: 180px;
+   
     width: 245px;
     margin-left: 30px;
     margin-right: 25px;
     border-radius: 6px;
+	color: #999a9c;
 }
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList a .fa-angle-down {
     padding-top: 13px;
@@ -502,6 +506,7 @@ margin-left: 0px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .share .row img{padding-left:0px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rate img{float:none; width:14%;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rateList{display:block;}
+
  /*end-added by jyothi for tips and tricks*/  
   
 	}
@@ -512,14 +517,14 @@ margin-left: 0px;}
 	 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-circle-o{font-size:27px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-dot-circle-o{font-size:27px; margin-left:49px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1{margin-left:0px; margin-right:0px;}
-.productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick{background:#fefefe;height:180px; width:875px; margin-left:30px;margin-right:25px; border-radius: 6px; }
 .productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick {
     background: #fefefe;
-    height: 180px;
     width: 518px;
     margin-left: 30px;
     margin-right: 25px;
     border-radius: 6px;
+	color: #999a9c;
+	padding-bottom:180px;
 }
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList a .fa-angle-down {
     padding-top: 13px;

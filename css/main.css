@@ -316,8 +316,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 /*                                   Added by Jyothi                                    */
 /*--------------------------------------------------------------------------------------*/
 .productPageLayout .leftMenuPane.techinicianlogin {background: #363437; width:173px;padding-left: 0px ; padding-right: 0px; postion:relative; min-height:1431px; }
-.productPageLayout .leftMenuPane.techinicianlogin .technicialLoginHeading{width:100%; float:left; background:url("../images/tech-center.png") no-repeat; color:#fff; text-align:center; text-transform:uppercase; font-size:17px; font-weight:bold;width: 100%;float: left;background: url("../images/tech-center.png") no-repeat;color: #fff;text-align: center;text-transform: uppercase;font-size: 15px;font-weight: bold;line-height: 1.1;padding: 10px 0;}
-.productPageLayout .leftMenuPane.techinicianlogin .userProfile{width:100%; float:left;}
+.productPageLayout .leftMenuPane.techinicianlogin .technicialLoginHeading{width: 100%; float: left; background: transparent url(../images/tech-center.png) no-repeat scroll 100% 0%; color: #fff;   text-align: center;   text-transform: uppercase;   font-size: 17px;  font-weight: normal;  padding: 10px 0 10px;  line-height: 1.2;}.productPageLayout .leftMenuPane.techinicianlogin .userProfile{width:100%; float:left;}
 .productPageLayout .leftMenuPane.techinicianlogin .userProfile .userImage{width:60px; float:left; padding:15px 0 0 22px;}
 .productPageLayout .leftMenuPane.techinicianlogin .userProfile .userImage img{width:38px; height:38px; }
 .productPageLayout .leftMenuPane.techinicianlogin .userProfile .userName{ color: #fff;width: 108px;float: right;padding: 26px 0 0;font-size: 12px;font-weight: bold;}
@@ -334,11 +333,12 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 .productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock #contact{text-align: center;margin: 16px 0 0 0;padding: 0;font-size: 12px;color: #a8a8aa;}
 .productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock #contact li{padding-bottom: 10px;background: none;text-transform: none;cursor: default;list-style: none;}
 .productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia{width:100%; float:left;}
-.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li{display: inline;float: left;background: none;list-style: none;border: 1px solid #9b9a9b;height: 29px;text-align: center;margin-bottom: 10px;width: 32px;padding-top: 0;margin-left: 3px;border-radius: 3px;}
-.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li i{color:#999a9b;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li{display: inline;float: left;background: none;list-style: none;height: 29px;text-align: center;margin-bottom: 10px;width: 32px;padding-top: 0;margin-left: 3px;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li a {color:#999a9b; border: 1px solid #9b9a9b; border-radius: 3px;}
 .productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul{width: 100%; float: left; margin: 0; padding: 0 15px;}
-.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li a{width:100%; float:left; padding-bottom: 7px; margin-top:0px;}
-.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li a:hover{color:#fff;}
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li a{width:100%; float:left; padding-bottom: 0px; margin-top:0px; line-height:1.95;}
+
+.productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons li a:hover i{color:#fff !important;}
 .productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons .facebook a:hover{background:#37589b;}
 .productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons .twitter a:hover{background:#46d4fe;}
 .productPageLayout .leftMenuPane.techinicianlogin .LiveChatBlock .SocialMedia ul#socialicons .linkedin a:hover{background:#0077b5;}
@@ -606,84 +606,71 @@ margin-left: 0px;}
 
 .row.productPageLayout .rightMenuPanedashboard{background: #b8b6b5;width:987px; height:1431px;font-family:arial;}
 .row.productPageLayout .rightMenuPanedashboard  .row.head  .leftpane .row.dashboard{background: url('../images/menu.jpg') repeat; width:987px;height:60px;}
-.row.productPageLayout .rightMenuPanedashboard .lefttext .title h4{margin-left:26px;margin-top:15px;}
-.row.productPageLayout .rightMenuPanedashboard .title h6{margin-left:26px; color:#999999;margin-top:-8px;}
+.row.productPageLayout .rightMenuPanedashboard .lefttext .title h4{margin-left:10px;margin-top:15px;}
+.row.productPageLayout .rightMenuPanedashboard .title h6{margin-left:10px; color:#999999;margin-top:-8px;}
 .row.productPageLayout .rightMenuPanedashboard   .row.head .dashboardtext #text{color:#ed1c24; text-decoration: underline;}
 .row.productPageLayout  .rightMenuPanedashboard  .row.head .dashboardtext  #pts img{display:inline;}
 
 .rightMenuPanedashboard  .row.dashboardbody .dashboardcontent{margin-top:15px;}
-.rightMenuPanedashboard  .row.dashboardbody .dashboardcontent p {font-size: 13px;font-weight:bold;}
+.rightMenuPanedashboard  .row.dashboardbody .dashboardcontent p {font-size: 13px;font-weight:bold; padding-left:10px;}
 
-.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1{margin-top:25px;padding-left:25px;}
-.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard{width:330px;height:280px;background:white;border-radius: 5px;}
-
-.rightMenuPanedashboard  .row.dashboard1{ border:1px solid #b8b6b5;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1 .firstdashboard  .first{background:#363437; height: 50px; width: 330px; border-radius: 5px 5px 0 0;font-size:13px;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first ul li label{padding:15px;color:white; font-size:15px;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul li:nth-child(2){color: white;border: 1px solid grey;padding: 2px 9px 4px 6px; margin-left:80px;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul li a{color:white;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul  #star{color: white;border: 1px solid grey;padding: 2px 9px 4px 6px;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul  #star a{color:#5e5d5f;}
-
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second {width:333px;height:50px; width:100%;margin-top: 10px; border-bottom:1px solid #d8d8d8;font-size:13px;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second ul li:first-child{width:80%;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second  ul li p{color:#666666; padding-left:20px;}
-.rightMenuPanedashboard   .row.dashboard1   .dashboardcontent1 .firstdashboard  .second  ul #star a i{color:#cdcdcd;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second  ul #download a i{color:#5778fd;}
-
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .third {width:333px;height:62px; width:100%;margin-top: 10px; border-bottom:1px solid #d8d8d8 ;font-size:13px;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1 .firstdashboard  .third  ul li:first-child{width:80%;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1 .firstdashboard  .third  ul li p{color:#666666; padding-left:20px;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1  .firstdashboard  .third  ul #star a i{color:#cdcdcd;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1  .firstdashboard  .third  ul #download a i{color:#5778fd;}
-
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1  .firstdashboard  .fourth {width:333px;height:50px; width:100%;margin-top: 10px;font-size:13px;}
-.rightMenuPanedashboard .row.dashboard1  .dashboardcontent1  .firstdashboard  .fourth  ul li:first-child{width:80%;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1  .firstdashboard  .fourth  ul li p{color:#666666; padding-left:20px;}
-.rightMenuPanedashboard  .row.dashboard1   .dashboardcontent1  .firstdashboard  .fourth   ul #star a i{color:#cdcdcd;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1  .firstdashboard  .fourth   ul #download a i{color:#5778fd;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent1 #viewall a{float: right;padding: 12px 10px;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins{padding-left:25px;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard{width:330px;height:280px;background:white;border-radius: 5px;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techheader{width:330px;height:52px;background:#363437;border-radius: 5px 5px 0 0;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techheader h4{padding: 18px 18px 0px; color:#ffffff;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techheader .r{color: #eaeaea;position: absolute;top: 27px;right:15px;border: 1px solid #565557;width: 23px;text-align: center;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techheader .star{color:#5e5d5f;position: absolute;top: 27px;right:-13px;border: 1px solid #565557;width: 23px;text-align: center;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techcontent{width:330px;height:228px;float: left;padding: 10px;padding-left:15px;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techcontent  ul {list-style:none;padding:0px;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techcontent  ul li{border-bottom: 1px solid grey;width: 100%;float: left;padding: 9px 0px !important;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techcontent  ul li:last-child{border-bottom: none;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techcontent  ul li .text{width:80%;font-weight: normal;font-size: 13px;float: left;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techcontent  ul li .star{width:10%;float: left;text-align: center; }
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techcontent  ul li .star a i{color:#cdcdcd;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techcontent  ul li .download{width:10%;float: left;text-align: center; }
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techcontent  ul li .download a i{color:#5778fd;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techcontent .viewall a{color:#ef343b;float:right;margin:10px;}
 
 
 
-.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard{width:570px;height:280px;margin-left: 29px;  }
-.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard .top{width:570px;height:50px;background:#363437;border-radius:5px;}
-.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard{margin-top: 25px;}
-.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane{width:570px;height:230px;}
-.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane{width:248px;height:230px;background:black;padding-left:0;border-radius:0 0 0 5px;}
-.rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane{width:322px;;height:230px; background:white;border-radius:0 0 5px 0;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2  .seconddashboard  .top{width:570px;height:50px;background:#363437;border-radius:5px 5px 0 0;}
-.rightMenuPanedashboard .row.dashboard1  .dashboardcontent2  .seconddashboard  .top ul li label{color:white;font-size:15px;margin-top:15px;margin-left:20px;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2  .seconddashboard  .top ul .recent{border:1px solid grey;padding:2px;margin-left:2px;}
-.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent2 .seconddashboard   .top ul  .recent a{color:grey;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2 .seconddashboard  .top ul .recent{margin-left: 175px;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2 .seconddashboard  .top ul  .recent #R{border-right:1px solid grey; padding:2px;}
-.rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2 .seconddashboard  .top ul .recent #R a{padding:5px;}
-.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent2 .seconddashboard  .top ul .favourite{border:1px solid grey;padding:2px;margin-left:2px;}
-.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent2 .seconddashboard  .top ul .favourite a{color:white;}
-.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent2 .seconddashboard  .top ul .favourite #star{border-right:1px solid grey; padding:3px;}
-.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent2 .seconddashboard  .top ul .favourite #star a{padding:5px;}
+.rightMenuPanedashboard  .row.Techniciandashboard  .dashboardcontent2 .seconddashboard{width:570px;height:280px;margin-left: 29px;  }
+.rightMenuPanedashboard  .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .top{width:570px;height:50px;background:#363437;border-radius:5px;}
+.rightMenuPanedashboard  .row.Techniciandashboard  .dashboardcontent2 .seconddashboard{margin-top: 25px;}
+.rightMenuPanedashboard  .row.Techniciandashboard  .dashboardcontent2 .seconddashboard  .contentpane{width:570px;height:230px;}
+.rightMenuPanedashboard  .row.Techniciandashboard  .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane{width:248px;height:230px;background:black;padding-left:0;border-radius:0 0 0 5px;}
+.rightMenuPanedashboard  .row.Techniciandashboard  .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane{width:322px;;height:230px; background:white;border-radius:0 0 5px 0;}
+.rightMenuPanedashboard  .row.Techniciandashboard   .dashboardcontent2  .seconddashboard  .top{width:570px;height:50px;background:#363437;border-radius:5px 5px 0 0;}
+.rightMenuPanedashboard .row.Techniciandashboard   .dashboardcontent2  .seconddashboard  .top ul li label{color:white;font-size:15px;margin-top:15px;margin-left:20px;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2  .seconddashboard  .top ul .recent{border:1px solid grey;padding:2px;margin-left:2px;}
+.rightMenuPanedashboard  .row.Techniciandashboard  .dashboardcontent2 .seconddashboard   .top ul  .recent a{color:grey;}
+.rightMenuPanedashboard  .row.Techniciandashboard   .dashboardcontent2 .seconddashboard  .top ul .recent{margin-left: 175px;}
+.rightMenuPanedashboard  .row.Techniciandashboard   .dashboardcontent2 .seconddashboard  .top ul  .recent #R{border-right:1px solid grey; padding:2px;}
+.rightMenuPanedashboard  .row.Techniciandashboard  .dashboardcontent2 .seconddashboard  .top ul .recent #R a{padding:5px;}
+.rightMenuPanedashboard  .row.Techniciandashboard  .dashboardcontent2 .seconddashboard  .top ul .favourite{border:1px solid grey;padding:2px;margin-left:2px;}
+.rightMenuPanedashboard  .row.Techniciandashboard  .dashboardcontent2 .seconddashboard  .top ul .favourite a{color:white;}
+.rightMenuPanedashboard  .row.Techniciandashboard  .dashboardcontent2 .seconddashboard  .top ul .favourite #star{border-right:1px solid grey; padding:3px;}
+.rightMenuPanedashboard  .row.Techniciandashboard  .dashboardcontent2 .seconddashboard  .top ul .favourite #star a{padding:5px;}
 
 
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .leftcontentpane iframe{margin-top:45px;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one{width:310; height:60px; border:1px solid #f3f3f3;margin-top:3px;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul{margin-top:5px;margin-left:3px; color:#666666;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li:nth-child(3){font-size:12px;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li #star a i{color:yellow;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li #star {padding-left:16px;}
-
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two{width:310; height:60px; border:1px solid #f3f3f3;margin-top:3px;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul{margin-top:5px;margin-left:3px; color:#666666;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li:nth-child(3){font-size:12px;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li #star a i{color:yellow;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li #star{padding-left:45px;}
-
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three{width:310; height:60px; border:1px solid #f3f3f3;margin-top:3px;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul{margin-top:5px;margin-left:3px; color:#666666;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane  #view{margin-top: 17px;float: right;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li:nth-child(3){font-size:12px;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li #star a i{color:yellow;}
-.rightMenuPanedashboard .row.dashboard1 .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li #star {padding-left:16px;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .leftcontentpane iframe{margin-top:45px;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one{width:310; height:60px; border:1px solid #f3f3f3;margin-top:3px;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul{margin-top:5px;margin-left:3px; color:#666666;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li:nth-child(3){font-size:12px;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li #star a i{color:yellow;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .one ul li #star {padding-left:16px;}
+                        .row.Techniciandashboard 
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two{width:310; height:60px; border:1px solid #f3f3f3;margin-top:3px;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul{margin-top:5px;margin-left:3px; color:#666666;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li:nth-child(3){font-size:12px;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li #star a i{color:yellow;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .two ul li #star{padding-left:45px;}
+                        .row.Techniciandashboard 
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three{width:310; height:60px; border:1px solid #f3f3f3;margin-top:3px;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul{margin-top:5px;margin-left:3px; color:#666666;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane  #view{margin-top: 17px;float: right;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li:nth-child(3){font-size:12px;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li #star a i{color:yellow;}
+.rightMenuPanedashboard .row.Techniciandashboard  .dashboardcontent2 .seconddashboard .contentpane  .rightcontentpane .three ul li #star {padding-left:16px;}
 
 
 
@@ -788,7 +775,9 @@ margin-left: 0px;}
 .row.productPageLayout .rightMenuPanedashboard .lefttext .title{margin-left:-28px;font-size:9px;}
 .row.productPageLayout .rightMenuPanedashboard .title h6{ color:#999999;margin-top:-8px;font-size:9px;}
 .row.productPageLayout .rightMenuPanedashboard  .rightext .dashboardtext  {font-size: 11px;float: right;}
- .rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1{margin-top:25px;padding-left: 14px;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins{padding-left:15px;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techheader .r{right:60px;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techheader .star{right:30px;}
  .rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard {float: right;width: 100%;}
  .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2  .seconddashboard  .top{width:100%;}
   .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2  .seconddashboard  .top ul{margin-left: -5px;padding-left:0px;}
@@ -841,12 +830,11 @@ margin-left: 0px;}
 .row.productPageLayout .rightMenuPanedashboard{width:100%;}
 .row.productPageLayout .rightMenuPanedashboard  .row.head  .leftpane .row.dashboard{width:639px;}
 .row.productPageLayout	 .rightMenuPanedashboard .row.dashboard  .rightext  {float:right;}
-.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard{width:100%;}
-.rightMenuPanedashboard  .row.dashboard1 .dashboardcontent1 .firstdashboard .first{width:100%;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .first  ul li:nth-child(2){margin-left:360px;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .second  ul  #star{padding-left:48px;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .third  ul  #star{padding-left:48px;}
-.rightMenuPanedashboard   .row.dashboard1  .dashboardcontent1 .firstdashboard  .fourth  ul  #star{padding-left:48px;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins{padding-left:15px;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard{width:100%;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techheader{width:100%;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techcontent{width:100%;}
+.rightMenuPanedashboard  .row.Techniciandashboard .TechnicianBulletins .techdashboard .techcontent  ul li{margin: 10px !important;}
 .rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .leftcontentpane{width:40%;}
 .rightMenuPanedashboard  .dashboard1 .dashboardcontent2 .seconddashboard  .contentpane .rightcontentpane{width:60%;}
 .rightMenuPanedashboard  .row.dashboard1  .dashboardcontent2  .seconddashboard  .top{width:100%;}

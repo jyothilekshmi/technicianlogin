@@ -395,7 +395,7 @@ div.bhoechie-tab div.bhoechie-tab-content:not(.active){display: none;}
 	.productPageLayout .rightMenuPane.TipsAndTricks .share .row img{padding-left:95px;}
 	.productPageLayout .rightMenuPane.TipsAndTricks .share .row{margin-left: 25px; margin-right: 36px;}
 	.productPageLayout .rightMenuPane.TipsAndTricks .share .row h3{margin-top:22px; margin-bottom:42px; margin-left:10px;}
-	.productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick{color: #999a9c; background:#fefefe;padding-bottom:180px; width:875px; margin-left:30px;margin-right:25px; border-radius: 6px; }
+	.productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick{background:#fefefe;height:180px; width:875px; margin-left:30px;margin-right:25px; border-radius: 6px; }
 	.productPageLayout .rightMenuPane.TipsAndTricks .share button{margin-left: 30px;
 margin-right: 16px;
 margin-top: 24px;
@@ -407,9 +407,6 @@ color: white;
 border: 1px solid #ed1b24;
 margin-bottom:20px;}
 
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .desktopSearchButton{position: absolute;right: 55px;width: 39px;z-index: 100;top: 0;height: 35px;opacity: 0;}
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .input-group-btn{right: 56px;z-index: 100;}
-.productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .input-group-btn .btn.btn-default{background: transparent !important;border: none;height: 39px;}
 /*--------------------------------------------------------------------------------------*/
 /*                                   Added by Jyothi                                    */
 /*--------------------------------------------------------------------------------------*/
@@ -488,12 +485,11 @@ margin-bottom:20px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1{margin-left:0px; margin-right:0px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick {
     background: #fefefe;
-   
+    height: 180px;
     width: 245px;
     margin-left: 30px;
     margin-right: 25px;
     border-radius: 6px;
-	color: #999a9c;
 }
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList a .fa-angle-down {
     padding-top: 13px;
@@ -506,7 +502,6 @@ margin-left: 0px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .share .row img{padding-left:0px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rate img{float:none; width:14%;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .rateList{display:block;}
-
  /*end-added by jyothi for tips and tricks*/  
   
 	}
@@ -517,14 +512,14 @@ margin-left: 0px;}
 	 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-circle-o{font-size:27px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .fa-dot-circle-o{font-size:27px; margin-left:49px;}
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList #accordion1{margin-left:0px; margin-right:0px;}
+.productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick{background:#fefefe;height:180px; width:875px; margin-left:30px;margin-right:25px; border-radius: 6px; }
 .productPageLayout .rightMenuPane.TipsAndTricks .share .shareTrick {
     background: #fefefe;
+    height: 180px;
     width: 518px;
     margin-left: 30px;
     margin-right: 25px;
     border-radius: 6px;
-	color: #999a9c;
-	padding-bottom:180px;
 }
 .productPageLayout .rightMenuPane.TipsAndTricks .overViewPane .itemList .TipsList a .fa-angle-down {
     padding-top: 13px;
@@ -737,18 +732,6 @@ margin-left: 0px;}
 .rightMenuPanedashboard   .row.row3 .dashboard5 .middle textarea{width: 278px;height: 180px;background: white;border-radius: 5px;margin-left: 10px;}
 .rightMenuPanedashboard   .row.row3 .dashboard5 .submit button{color: white;background:#ed1c24;border: none;width: 125px;padding:10px;border-radius: 11px;margin-left: 23px;margin-top: 24px;}
 
-<<<<<<< HEAD
-.rightMenuPanedashboard   .row.row3  .dashboard6  {width:572px; height:345px;margin-left:25px;;margin-top:25px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .top{ width:570px;height:50px;background:#363437;border-radius:5px 5px 0 0;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .top label{color: white;margin-left: 25px;margin-top: 14px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content{height:293px; width:570px;background:white;border-radius:0 0 5px 5px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content label{margin-top: 15px;margin-left: 16px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .content1{display:inline;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .search input {margin-top: 10px;width:55%;margin-left: 15px;border-radius: 5px solid grey;font-size: 12px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content  .search span{margin-left: 305px;color:red;top:-27px;}
-
-
-=======
 .rightMenuPanedashboard   .row.row3  .dashboard6  {width:572px; height:345px;margin-left:15px;;margin-top:25px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .top{ width:570px;height:50px;background:#363437;border-radius:5px 5px 0 0;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .top label{color: white;margin-left: 25px;margin-top: 14px;}
@@ -830,7 +813,7 @@ margin-left: 0px;}
 
 .rightMenuPanedashboard   .row.row3  .dashboard6  {width:100%;margin-left:0px;margin-bottom: 190px;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .top{width:100%;}
-/*
+
 .rightMenuPanedashboard   .row.row3  .dashboard6  .content{width: 100%;margin-left: 0px;height: 477px;padding-left:15px;font-family: arial;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1{width:100%;}
 .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .search{width:100%;}
@@ -841,14 +824,14 @@ margin-left: 0px;}
  .rightMenuPanedashboard   .row.row3  .dashboard6  .content .row.content1 .loc  button  .text{font-size: 13px;}
  .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .dist {margin-top: 3px; width:100%;}
  .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2  .radio{margin-top:-18px;margin-left:10px;width:100%;}
- /*.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3  .one {width:50%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3  .one {width:50%;}
   .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3  .two {width:50%;padding-left:0px;}
   .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .two #text1{font-size: 11px;padding-left:0px;}
    .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3  .three {width:50%;padding-left: 6px;}
     .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4  .one {width:50%;}
   .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .two {width:50%;padding-left:0px;}
   .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .two #text1{font-size: 11px;padding-left:0px;}
-   .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4  .three {width:50%;padding-left: 6px;}*/
+   .rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4  .three {width:50%;padding-left: 6px;}
 
 
 }
@@ -899,14 +882,31 @@ margin-left: 0px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text2{margin-left: 10px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 {margin-top: 80px;}
 .rightMenuPanedashboard  .row.dashboardsecond .dashboard4  #text4 i {margin-right: 15px;margin-top: -15px;float: right;}
-.rightMenuPanedashboard   .row.row3 .dashboard5{width: 93%;}
+.rightMenuPanedashboard   .row.row3 .dashboard5{width: 95%;}
 .rightMenuPanedashboard   .row.row3 .dashboard5 .top{height: 79px;}
 .rightMenuPanedashboard   .row.row3 .dashboard5 .middle textarea{width: 96%;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  {width:100%;margin-left:0px;margin-bottom: 25px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .top{width:98%;}
-.rightMenuPanedashboard   .row.row3  .dashboard6  .content{width:98%;height: 300px;}
-.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search input{width:112%;}
-
+.rightMenuPanedashboard   .row.row3  .dashboard6  .content {width:100%;margin-left:0px;margin-bottom: 25px;height: 320px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .top{width:100%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 {width:100%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search{width:50%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search input{width:100%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1 .search .glyphicon {margin-left: 253px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1  .text{margin-left: -24px;margin-top: 12px;padding-left: 3px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1  .loc{ width: 50%;margin-top: -44px;margin-right: 0px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content1  .loc button .text{margin-left: -12px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .dist{margin-top:0px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content2 .radio{margin-top: -46px;margin-left: 184px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 {width: 100%;margin-top: 5px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .one{width:25%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .two{width:25%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .three{width:25%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content3 .star{width:25%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 {width: 100%;margin-top: 5px;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .one{width:25%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .two{width:25%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .three{width:25%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6 .content .row.content4 .star{width:25%;}
+.rightMenuPanedashboard   .row.row3  .dashboard6  .view {margin: 10px 10px 0 0;}
 }
 
 /*-------------------------------------------------------------------------------------------------------------*/
@@ -1081,5 +1081,4 @@ margin-left: 0px;}
 	.rightbody.techinicianlogin .row.learning-center  .lefttext {width: 100%;}
 	.rightbody.techinicianlogin .row.learning-center-body {width: 105%;}
 }
->>>>>>> origin/master
 >>>>>>> origin/master
